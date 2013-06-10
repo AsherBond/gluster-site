@@ -1,0 +1,43 @@
+!!!5
+%html
+  %head
+    %meta{ :charset=>'utf-8' }
+    %title An awesome site 
+    %meta{ :name=>'viewport', :content=>'width=device-width, initial-scale=1.0' }
+    :css
+      body {
+        padding-top: 60px;
+      }
+    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"#{site.base_url}/stylesheets/styles.css" }
+    /[if lt IE 9]
+      %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
+  %body
+
+    %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
+    %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap.js" }
+    %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap-collapse.js" }
+    %script{:type=>'text/javascript', 
+      :src=>"#{site.base_url}/javascripts/jquery.backstretch.min.js"}
+
+    .navbar.navbar-top.navbar-inverse
+      .navbar-inner
+        .container
+          %a.brand{ :href=>"#{site.base_url}" } <b>Gluster<small>.org</small></b>
+          %ul.nav
+            %li.blog
+              %a{ :href=>"#{site.base_url}/blog" } Blog
+            %li.docs
+              %a{ :href=>"#{site.base_url}/documentation/" } Documentation
+            %li.forge
+              %a{ :href=>"http://forge.gluster.org" } Developers
+    .container#page-container
+      ~ content
+    %footer
+      .container
+        .row
+          .span12
+            %p <small> &copy; #{Date.today.year} Red Hat, Inc. All Rights Reserved | <a href="#{site.base_url}/legal/">Legal & Privacy</a> </small>
+
+:javascript
+  $("body").backstretch("/images/cloud_bg.png");
+
