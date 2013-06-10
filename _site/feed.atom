@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
-  <id>http://gitlab.osas.lab.eng.rdu2.redhat.com/osas/gluster-design/raw/master/awestruct/_site/</id>
-  <title>Baked with Awestruct</title>
+  <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/</id>
+  <title>Gluster.org</title>
 </feed>
