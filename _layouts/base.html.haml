@@ -12,7 +12,6 @@
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
   %body
-
     %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
     %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap.js" }
     %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap-collapse.js" }
@@ -39,5 +38,5 @@
             %p <small> &copy; #{Date.today.year} Red Hat, Inc. All Rights Reserved | <a href="#{site.base_url}/legal/">Legal & Privacy</a> </small>
 
 :javascript
-  $("body").backstretch("/images/cloud_bg.png");
+  $("body").backstretch("images/cloud_bg.png");
 
