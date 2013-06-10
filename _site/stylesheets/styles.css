@@ -8309,7 +8309,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 31, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 hr {
   border: 0;
-  height: 1px;
+  height: 10px;
   background: rgba(255, 255, 255, 0.5);
 }
 
