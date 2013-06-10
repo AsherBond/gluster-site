@@ -26,6 +26,10 @@ a.brand {
    text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
 }
 
+#gluster-startbutton {
+  background: radial-gradient(ellipse at center center , rgb(234, 130, 21) 0%, rgb(234, 126, 21) 30%, rgb(235, 106, 20) 77%, rgb(235, 106, 20) 100%) repeat scroll 0% 0% transparent;
+}
+
 // navbar styles. define classes for navbar links in 
 // _layouts/base.html.haml and style them here.
 
