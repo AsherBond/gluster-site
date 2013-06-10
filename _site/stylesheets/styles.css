@@ -8288,7 +8288,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 }
 /* line 12, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 a.brand {
-  font-weight: normal;
+  font-weight: 700;
 }
 
 /* line 16, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
