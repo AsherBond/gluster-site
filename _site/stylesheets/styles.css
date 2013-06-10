@@ -8306,14 +8306,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
   font-weight: 400;
 }
 
-/* line 31, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
-.well {
-  background: transparent;
-  border: transparent;
-  box-shadow: none;
-}
-
-/* line 49, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
+/* line 43, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 footer {
   color: #444;
   background: #ccc;
