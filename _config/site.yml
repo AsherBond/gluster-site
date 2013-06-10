@@ -1,18 +1,26 @@
-name: Project Name
-title: Baked with Awestruct
-org: Organization
+name: Gluster Website
+title: Gluster.org
+org: gluster community
 base_url: 'http://www.gluster.org'
 
 profiles:
   development:
-    base_url: 'http://gitlab.osas.lab.eng.rdu2.redhat.com/osas/gluster-design/raw/master/awestruct/_site/'
+    base_url: 'https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/'
     minify: false
     dev: true
     deploy:
       dummy:
+  staging:
+    base_url: http://staging.gluster.org
+    minify: true
+    deploy:
+       dummy:
+#      host: download.gluster.org
+#      path: /var/www/www.gluster.org-staging
   production:
     base_url: http://www.gluster.org
     minify: true
-#    deploy:
+    deploy:
+       dummy:
 #      host: user@myblog.com
 #      path: /home/user/path/to/site
