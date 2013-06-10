@@ -5,7 +5,7 @@ base_url: 'http://www.gluster.org'
 
 profiles:
   development:
-    base_url: 'http://localhost:4242'
+    base_url: 'http://gitlab.osas.lab.eng.rdu2.redhat.com/osas/gluster-design/raw/master/awestruct/_site/'
     minify: false
     dev: true
     deploy:
