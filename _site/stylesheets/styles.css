@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:900);
 /*
  * Bootstrap v2.3.1
  *
@@ -8286,24 +8287,25 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     overflow: visible !important;
   }
 }
-/* line 12, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
+/* line 13, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 a.brand {
-  font-weight: 700;
+  font-family: "Lato";
+  font-weight: 900;
 }
 
-/* line 16, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
+/* line 18, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 .hero-unit {
   border-radius: 0;
   background: transparent;
 }
 
-/* line 21, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
+/* line 23, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 .hero-unit h1 {
   color: #002242;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-/* line 29, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
+/* line 31, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 .navbar-inverse .navbar-inner {
   background: #111;
   background: linear-gradient(to bottom, rgba(15, 13, 16, 0.8) 0%, rgba(45, 48, 56, 0.8) 100%);
@@ -8311,14 +8313,14 @@ a.brand {
   font-weight: 400;
 }
 
-/* line 35, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
+/* line 37, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 hr {
   border: 0;
   height: 1px;
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 53, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
+/* line 55, /home/tigert/SparkleShare/gluster-design/awestruct/stylesheets/styles.scss */
 footer {
   color: #444;
   background: #ccc;
