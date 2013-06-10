@@ -11,7 +11,7 @@ profiles:
     deploy:
       dummy:
   production:
-    base_url: http://www.myblog.com
+    base_url: http://www.gluster.org
     minify: true
 #    deploy:
 #      host: user@myblog.com
