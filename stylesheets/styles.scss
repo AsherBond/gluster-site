@@ -30,12 +30,9 @@ a.brand {
   background: radial-gradient(ellipse at center center , rgb(234, 130, 21) 0%, rgb(234, 126, 21) 30%, rgb(235, 106, 20) 77%, rgb(235, 106, 20) 100%) repeat scroll 0% 0% transparent;
 }
 
-// navbar styles. define classes for navbar links in 
-// _layouts/base.html.haml and style them here.
-
 .navbar-inverse .navbar-inner {
   background: #111;
-  background: linear-gradient(to bottom, rgba(15,13,16,0.8) 0%, rgba(45,48,56,0.8) 100%); /* W3C */
+  background: linear-gradient(to bottom, rgba(15, 13, 16, 1) 0%, rgba(45, 48, 56, 1) 100%);
   font-weight: 400;
 }
 
