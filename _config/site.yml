@@ -1,11 +1,11 @@
 name: Gluster Website
-title: Gluster.org
+title: GLUSTER - Massive storage for your Cloud.
 org: gluster community
 base_url: 'http://www.gluster.org'
 
 profiles:
   development:
-    base_url: 'https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/'
+    base_url: 'http://localhost:4242'
     minify: false
     dev: true
     deploy:
@@ -15,8 +15,8 @@ profiles:
     minify: true
     deploy:
        dummy:
-#      host: download.gluster.org
-#      path: /var/www/www.gluster.org-staging
+       # we have a local git pull via cron on 
+       # the staging pulling updates for now
   production:
     base_url: http://www.gluster.org
     minify: true
