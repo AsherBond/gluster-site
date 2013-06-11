@@ -8314,17 +8314,18 @@ a.brand {
 /* line 33, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 .navbar-inverse .navbar-inner {
   background: #111;
+  background: linear-gradient(to bottom, #0f0d10 0%, #2d3038 100%);
   font-weight: 400;
 }
 
-/* line 38, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 39, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 hr {
   border: 0;
   height: 1px;
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 56, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 57, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 footer {
   color: #444;
   background: #ccc;
