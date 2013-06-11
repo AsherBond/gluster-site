@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
-  <id>http://staging.gluster.org/</id>
+  <id>http://www.gluster.org/</id>
   <title>GLUSTER - Massive storage for your Cloud.</title>
 </feed>
