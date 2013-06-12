@@ -9,6 +9,8 @@ profiles:
   devel:
     base_url: 'http://localhost:4242'
     minify: false
+  forge:
+    base_url: 'https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/'
   final:
     base_url: 'http://www.gluster.org'
     minify: true
