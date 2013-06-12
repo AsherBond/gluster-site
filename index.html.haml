@@ -2,30 +2,25 @@
 layout: base
 ---
 
-.hero-unit
+.hero-unit.pagination-centered
   %h1 Massive storage for your Cloud.
   %h4 GlusterFS is a networked, scalable filesystem capable of handling thousands of users
 .row
   .span4 
-    %h2 Scalable
-    %p 72 brontobytes likely won't be enough for everyone, but it should do for a while. GlusterFS serves thousands of clients without a hitch.
+    %h2 Scalability
+    %p 72 brontobytes likely won't be enough for everyone, but it should do for a while. Gluster serves thousands of clients on streaming media and cloud computing and other large installations, without a hitch.
     %p
-      %a{ :href=>'http://www.gluster.org' } How big is your need? &raquo; 
+      %a{ :href=>"#{site.base_url}/scalable/" } How big is your need? &raquo; 
   .span4
-    %h2 Open & Standard
-    %p Supports standard clients running standard applications over any standard IP network - using common off-the-shelf hardware.
+    %h2 Open Standards
+    %p Hook up Windows, Mac and Linux users and servers with standard practices. Gluster supports standard clients running standard applications over any standard IP network.
     %p
-      %a{ :href=>'http://www.gluster.org' } Technical details &raquo; 
+      %a{ :href=>"#{site.base_url}/standards/" } Technical details &raquo; 
   .span4
-    %h2 Compatible
-    %p Use commodity hardware off the shelf. GlusterFS runs on 64-bit x86 Linux, 
+    %h2 Expand as You Go
+    %p Use commodity hardware off the shelf. GlusterFS runs on 64-bit x86 Linux, which supports a wide range of storage and network solutions. Get started quick and expand as your needs grow.
     %p
-      %a{ :href=>'http://www.gluster.org' } See how you can too &raquo; 
-%hr
-.row
-  .span9
-    %p
-      Duis ac consequat magna. Aenean consequat magna sodales nisi dapibus, sed semper mi sagittis. Morbi posuere, diam sit amet fermentum dictum, felis erat congue arcu, vel eleifend est erat scelerisque diam. Suspendisse consequat feugiat felis, eu fermentum lacus tincidunt ut. Suspendisse potenti. Duis eleifend urna vitae risus laoreet malesuada. Phasellus at convallis metus, a commodo massa. Nulla dapibus malesuada eleifend. Praesent non rhoncus elit, in molestie neque. Morbi id risus nunc. Sed fermentum metus at arcu lobortis, et gravida felis vehicula. Mauris at cursus diam. 
-  .span3
-    %button.btn-large.btn-primary#gluster-startbutton Get started on GlusterFS!<div class="evilhack"><small>foo bar zoo</small></div>
-
+      %a{ :href=>"#{site.base_url}/hardware/" } See how you can too &raquo; 
+.hero-unit
+  %h2.pagination-centered 
+    %a{ :href=>"#{site.base_url}/getstarted/" } Get started! Read the Quick Start Guide!
