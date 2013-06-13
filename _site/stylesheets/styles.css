@@ -8331,25 +8331,51 @@ footer {
   background: #222;
   background: linear-gradient(to bottom, #141414 0%, #2a2a2a 100%);
   /* W3C */
-  margin-top: 42px;
+  margin-top: 0px;
   padding-top: 21px;
   padding-bottom: 342px;
 }
 
-@media (max-width: 767px) {
-  /* line 69, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  body {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+/* line 67, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+.antsmarching {
+  background-image: url("/images/antsmarching.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 60px;
+}
 
-  /* line 73, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+@media (min-width: 767px) {
+  /* line 75, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   footer, .container {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 77, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 79, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 89, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 93, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  .antsmarching {
+    display: none;
+  }
+
+  /* line 94, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  footer, .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 98, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .navbar {
     margin-left: 0;
     margin-right: 0;
