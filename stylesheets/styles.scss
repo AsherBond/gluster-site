@@ -59,10 +59,30 @@ footer {
   color: #666;
   background: #222;
   background: linear-gradient(to bottom, rgb(20,20,20) 0%,rgb(42,42,42) 100%); /* W3C */
-  margin-top: 42px;
+  margin-top: 0px;
   padding-top: 21px;
   padding-bottom: 342px;
 }
+
+.antsmarching {
+  background-image: url("/images/antsmarching.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 60px;
+}
+
+@media (min-width: 767px) {
+  footer, .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
 
 // responsive footer fix
 @media (max-width: 767px) {
@@ -70,6 +90,7 @@ footer {
     padding-right: 0px;
     padding-left: 0px;
   }
+  .antsmarching { display: none }
   footer, .container {
     padding-left: 20px;
     padding-right: 20px;
