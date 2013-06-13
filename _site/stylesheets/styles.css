@@ -8335,3 +8335,23 @@ footer {
   padding-top: 21px;
   padding-bottom: 342px;
 }
+
+@media (max-width: 767px) {
+  /* line 69, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 73, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  footer, .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 77, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
