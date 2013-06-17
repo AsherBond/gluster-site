@@ -246,14 +246,14 @@ body {
 
 /* line 22, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #0088cc;
+  color: #0066aa;
   text-decoration: none;
 }
 
 /* line 27, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover,
 a:focus {
-  color: #005580;
+  color: #00385d;
   text-decoration: underline;
 }
 
@@ -3281,14 +3281,14 @@ table th[class*="span"],
 .dropdown-submenu:focus > a {
   text-decoration: none;
   color: white;
-  background-color: #0081c2;
-  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
-  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-color: #00609f;
+  background-image: -moz-linear-gradient(top, #0066aa, #005790);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0066aa), to(#005790));
+  background-image: -webkit-linear-gradient(top, #0066aa, #005790);
+  background-image: -o-linear-gradient(top, #0066aa, #005790);
+  background-image: linear-gradient(to bottom, #0066aa, #005790);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0077B3', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0066AA', endColorstr='#FF005790', GradientType=0);
 }
 
 /* line 101, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -3298,14 +3298,14 @@ table th[class*="span"],
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #0081c2;
-  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
-  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-color: #00609f;
+  background-image: -moz-linear-gradient(top, #0066aa, #005790);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0066aa), to(#005790));
+  background-image: -webkit-linear-gradient(top, #0066aa, #005790);
+  background-image: -o-linear-gradient(top, #0066aa, #005790);
+  background-image: linear-gradient(to bottom, #0066aa, #005790);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0077B3', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0066AA', endColorstr='#FF005790', GradientType=0);
 }
 
 /* line 113, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -3698,29 +3698,29 @@ input[type="button"].btn-block {
 .btn-primary {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #006ccc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-color: #004faa;
+  background-image: -moz-linear-gradient(top, #0066aa, #002daa);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0066aa), to(#002daa));
+  background-image: -webkit-linear-gradient(top, #0066aa, #002daa);
+  background-image: -o-linear-gradient(top, #0066aa, #002daa);
+  background-image: linear-gradient(to bottom, #0066aa, #002daa);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0044CC', GradientType=0);
-  border-color: #0044cc #0044cc #002a80;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0066AA', endColorstr='#FF002DAA', GradientType=0);
+  border-color: #002daa #002daa #00195d;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #0044cc;
+  *background-color: #002daa;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 /* line 502, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
   color: white;
-  background-color: #0044cc;
-  *background-color: #003bb3;
+  background-color: #002daa;
+  *background-color: #002790;
 }
 /* line 510, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .btn-primary:active, .btn-primary.active {
-  background-color: #003399 \9;
+  background-color: #002077 \9;
 }
 
 /* line 149, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3914,7 +3914,7 @@ input[type="submit"].btn.btn-mini {
 .btn-link {
   border-color: transparent;
   cursor: pointer;
-  color: #0088cc;
+  color: #0066aa;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -3923,7 +3923,7 @@ input[type="submit"].btn.btn-mini {
 /* line 219, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover,
 .btn-link:focus {
-  color: #005580;
+  color: #00385d;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4109,7 +4109,7 @@ input[type="submit"].btn.btn-mini {
 }
 /* line 140, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #0044cc;
+  background-color: #002daa;
 }
 /* line 143, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group.open .btn-warning.dropdown-toggle {
@@ -4382,7 +4382,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:focus {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #0088cc;
+  background-color: #0066aa;
 }
 
 /* line 79, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navs.scss */
@@ -4488,7 +4488,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
   color: white;
-  background-color: #0088cc;
+  background-color: #0066aa;
 }
 
 /* line 170, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navs.scss */
@@ -4567,16 +4567,16 @@ input[type="submit"].btn.btn-mini {
 
 /* line 220, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .dropdown-toggle .caret {
-  border-top-color: #0088cc;
-  border-bottom-color: #0088cc;
+  border-top-color: #0066aa;
+  border-bottom-color: #0066aa;
   margin-top: 6px;
 }
 
 /* line 226, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .dropdown-toggle:hover .caret,
 .nav .dropdown-toggle:focus .caret {
-  border-top-color: #005580;
-  border-bottom-color: #005580;
+  border-top-color: #00385d;
+  border-bottom-color: #00385d;
 }
 
 /* move down carets for tabs */
@@ -6063,7 +6063,7 @@ input[type="submit"].btn.btn-mini {
 /* line 38, /home/tigert/.gem/ruby/gems/bootstrap-sass-2.3.1.3/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #0088cc;
+  border-color: #0066aa;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
