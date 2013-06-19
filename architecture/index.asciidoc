@@ -1,0 +1,15 @@
+---
+layout: base
+---
+
+GlusterFS Architecture
+----------------------
+
+This could be a brief one chapter explanation about how gluster works and
+why it makes sense. How much does it scale in practice, what are its
+strong points, and why should I use it.
+
+We could list a few success stories / references here and the
+reasons why they chose to use glusterfs.
+
+We could then give a few examples of the kind of other uses Gluster makes sense for.
