@@ -11,7 +11,8 @@
     %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"#{site.base_url}/stylesheets/styles.css" }
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
-  %body
+  -# set a class to body element so we can match active page with CSS hilight!
+  %body{ :id=>"#{page.navigation}" }
     %script{ :type=>'text/javascript', :src=>'//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js' }
     %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap.js" }
     %script{ :type=>'text/javascript', :src=>"#{site.base_url}/javascripts/bootstrap-collapse.js" }
@@ -21,14 +22,16 @@
     .navbar.navbar-fixed-top.navbar-inverse
       .navbar-inner
         .container
-          %a.brand{ :href=>"#{site.base_url}/index.html" } Gluster
+          %a.brand#homenav{ :href=>"#{site.base_url}/index.html" } Gluster
           %ul.nav
-            %li.blog
-              %a{ :href=>"#{site.base_url}/blog/index.html" } Blog
-            %li.docs
-              %a{ :href=>"#{site.base_url}/documentation/index.html" } Documentation
-            %li.forge
-              %a{ :href=>"http://forge.gluster.org" } Forge
+            %li
+              %a#blognav{ :href=>"#{site.base_url}/blog/index.html" } Blog
+            %li
+              %a#documentationnav{ :href=>"#{site.base_url}/documentation/index.html" } Documentation
+            %li
+              %a#communitynav{ :href=>"#{site.base_url}/community/index.html" } Community
+            %li
+              %a#forgenav{ :href=>"http://forge.gluster.org" } Forge
     .container
       ~ content
     .antsmarching
