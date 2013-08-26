@@ -10,6 +10,7 @@
 // Gluster specific styling..
 
 @import url(http://fonts.googleapis.com/css?family=Lato:900);
+
 a.brand {
   font-family: "Lato";
   font-weight: 900;
@@ -39,15 +40,6 @@ hr {
   background: rgba(0,0,0,0.2); 
 }
 
-.navbar-inner { border-bottom: 0; }
-body#blog #blognav,
-body#documentation #documentationnav,
-body#community #communitynav,
-body#forge #forgenav {
-  border-bottom: 4px solid #abd63b;
-  padding-bottom: 6px;
-}
-
 footer {
   color: #666;
   background: #171717;
@@ -65,6 +57,38 @@ footer {
   margin-top: 30px;
 }
 
+#documentation #presentations {
+  background: rgba(255,255,255,0.2);
+}
+
+h1 small {
+  color: #666;
+  text-shadow: none;
+}
+
+#documentation #documentationpage {
+  padding-top: 0;
+}
+
+@media (max-width: 980px) {
+  body#blog #blognav,
+  body#documentation #documentationnav,
+  body#community #communitynav,
+  body#forge #forgenav {
+    background: #000;
+  }
+}
+@media (min-width: 980px) {
+  .navbar-inner { border-bottom: 0; }
+  body#blog #blognav,
+  body#documentation #documentationnav,
+  body#community #communitynav,
+  body#forge #forgenav {
+    border-bottom: 4px solid #abd63b;
+    padding-bottom: 6px;
+  }
+}
+
 @media (min-width: 767px) {
   footer, .container {
     padding-left: 20px;
@@ -76,23 +100,25 @@ footer {
   }
 }
 
-
-
 // responsive footer fix
 @media (max-width: 767px) {
-  body {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
   .antsmarching { display: none }
-  footer, .container {
-    padding-left: 20px;
-    padding-right: 20px;
+  footer, .container, .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .navbar {
     margin-left: 0;
     margin-right: 0;
   }
+  body { 
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container#main {
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
 }
  
 
