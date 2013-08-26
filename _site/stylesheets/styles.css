@@ -8290,7 +8290,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 /* line 14, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 .navbar .brand {
   font-family: "Lato";
-  font-weight: 900 !important;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
