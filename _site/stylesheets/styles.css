@@ -8321,20 +8321,6 @@ hr {
 }
 
 /* line 42, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-.navbar-inner {
-  border-bottom: 0;
-}
-
-/* line 46, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-body#blog #blognav,
-body#documentation #documentationnav,
-body#community #communitynav,
-body#forge #forgenav {
-  border-bottom: 4px solid #abd63b;
-  padding-bottom: 6px;
-}
-
-/* line 51, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 footer {
   color: #666;
   background: #171717;
@@ -8345,7 +8331,7 @@ footer {
   padding-bottom: 342px;
 }
 
-/* line 60, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 51, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 .antsmarching {
   background-image: url("https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/images/antsmarching.png");
   background-repeat: no-repeat;
@@ -8354,40 +8340,86 @@ footer {
   margin-top: 30px;
 }
 
+/* line 59, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+#documentation #presentations {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 63, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+h1 small {
+  color: #666;
+  text-shadow: none;
+}
+
+/* line 68, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+#documentation #documentationpage {
+  padding-top: 0;
+}
+
+@media (max-width: 980px) {
+  /* line 76, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  body#blog #blognav,
+  body#documentation #documentationnav,
+  body#community #communitynav,
+  body#forge #forgenav {
+    background: #000;
+  }
+}
+@media (min-width: 980px) {
+  /* line 81, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  .navbar-inner {
+    border-bottom: 0;
+  }
+
+  /* line 85, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  body#blog #blognav,
+  body#documentation #documentationnav,
+  body#community #communitynav,
+  body#forge #forgenav {
+    border-bottom: 4px solid #abd63b;
+    padding-bottom: 6px;
+  }
+}
 @media (min-width: 767px) {
-  /* line 69, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 92, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   footer, .container {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 73, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 96, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .navbar {
     margin-left: 0;
     margin-right: 0;
   }
 }
 @media (max-width: 767px) {
-  /* line 83, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  body {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  /* line 87, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 104, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .antsmarching {
     display: none;
   }
 
-  /* line 88, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  footer, .container {
-    padding-left: 20px;
-    padding-right: 20px;
+  /* line 105, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  footer, .container, .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
-  /* line 92, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 109, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .navbar {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  /* line 113, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 117, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  .container#main {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
