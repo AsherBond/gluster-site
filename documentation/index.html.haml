@@ -3,23 +3,36 @@ layout: base
 navigation: documentation
 ---
 
-.hero-unit
-  %h1 Documentation
-  %p Get started with GlusterFS
-.row
-  .span4
-    %h2 Scalable
-    %p GlusterFS scales up to 72 brontobytes. We won't say it should be enough, but it should do for a while. It also serves thousands of clients without a hitch.
-    %p
-      %a{ :href=>'http://www.gluster.org' } How big is your need? &raquo; 
-  .span4
-    %h2 Affordable
-    %p Use commodity hardware off the shelf. GlusterFS runs on 64-bit x86 Linux, 
-    %p
-      %a{ :href=>'http://www.gluster.org' } See how you can too &raquo; 
-  .span4
-    %h2 Compatible
-    %p Supports standard clients running standard applications over any standard IP network - using common off-the-shelf hardware.
-    %p
-      %a{ :href=>'http://www.gluster.org' } Technical details &raquo; 
+#presentations.well-large.pull-right.span3
+  .text-center
+    %img{ :src=>"#{site.base_url}/images/documentation.png" }
+  %h2 Slides & Videos
+  %p GlusterFS has been presented in various conferences and events, so there are plenty of useful introductory videos, hands-on tutorials and other presentations available. 
+
+  %h4 
+    %a{ :href=>'https://www.youtube.com/user/GlusterCommunity' } GlusterCommunity @YouTube &raquo;
+  %h4 
+    %a{ :href=>'http://www.slideshare.net/Gluster/presentations' } Presentations @SlideShare &raquo;
+
+%h1 Documentation <small>GlusterFS 3.4</small>
+%p.lead Take common hardware and turn it into scalable high performance storage solution. You'll need at least two 64 bit X86 computers to get started, or two virtual machines with 1 GB of memory dedicated to each, should you wish to test the concepts first.
+
+%h2 Getting Started
+%dl
+  %dt
+    %a{ :href=>'quickstart' } QuickStart Guide
+  %dd Begin here if you are new to GlusterFS. Starting from zero, we'll explain the system requirements and walk you through the installation and configuration. Once completed, you will have a basic understanding of the concepts and requirements, and your brand new Gluster is ready for use!
+  %dt
+    %a{ :href=>'getting_started' } Getting Started
+  %dd Longer series of documents designed to give you a firm grounding in the world of GlusterFS
+  %dt
+    %a{ :href=>'' } GlusterFS Concepts
+  %dd What is this GlusterFS thing? How does it work? This living document attempts to explain.
+  %dt
+    %a{ :href=>'' } Basic Gluster Troubleshooting
+  %dd Gluster troubleshooting, 20 questions style!
+  %dt
+    %a{ :href=>'' } HOWTO Guides
+  %dd Practical walkthrough documentation focusing on various topics.
+
 
