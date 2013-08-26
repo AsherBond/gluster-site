@@ -19,4 +19,4 @@ achieve that.
 
 === Client Connectivity Requirements 
 
-Gluster is compatible with all major desktop operating systems: Windows, Mac and Linux computers can all easily connect to a Gluster share. There are several options and protocols available, the most straigthforward naturally being the SMB Windows file sharing protocol
+Gluster is compatible with all major desktop operating systems. Windows, Mac and Linux hosts can all connect to a Gluster share. There are several options and protocols available, the most straigthforward naturally being the SMB Windows file sharing protocol
