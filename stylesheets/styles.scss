@@ -83,27 +83,6 @@ h1 small {
   }
 }
 
-// responsive footer fix
-@media (max-width: 767px) {
-  .antsmarching { display: none }
-  footer, .container, .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .navbar {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  body { 
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .container#main {
-    padding-left: 20px;
-    padding-right: 20px;
-  } 
-}
- 
 /* sticky footer #wrap */
 html, body { height: 100%;} 
 #wrap { min-height: 100%; }
