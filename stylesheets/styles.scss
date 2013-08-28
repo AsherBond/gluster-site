@@ -40,8 +40,10 @@ hr {
   background: rgba(0,0,0,0.2); 
 }
 
-#documentation #presentations {
-  background: rgba(255,255,255,0.2);
+
+#documentation pre {
+  background: rgba(255,255,255,0.25);
+  border: 0;
 }
 
 h1 small {
@@ -49,8 +51,12 @@ h1 small {
   text-shadow: none;
 }
 
-#documentation #documentationpage {
-  padding-top: 0;
+.side-index {
+  background: rgba(255,255,255,0.25);
+}
+
+.side-index h4 {
+  margin-top: 0;
 }
 
 @media (max-width: 980px) {
