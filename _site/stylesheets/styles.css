@@ -8373,48 +8373,18 @@ h1 small {
     margin-right: 0;
   }
 }
-@media (max-width: 767px) {
-  /* line 88, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  .antsmarching {
-    display: none;
-  }
-
-  /* line 89, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  footer, .container, .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  /* line 93, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  .navbar {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* line 97, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  body {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* line 101, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-  .container#main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
 /* sticky footer #wrap */
-/* line 108, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 87, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 html, body {
   height: 100%;
 }
 
-/* line 109, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 88, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #wrap {
   min-height: 100%;
 }
 
-/* line 110, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 89, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #main {
   padding-top: 60px;
   overflow: auto;
@@ -8422,7 +8392,7 @@ html, body {
 }
 
 /* must be same height as the footer */
-/* line 115, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 94, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #footer {
   position: relative;
   margin-top: -150px;
@@ -8435,13 +8405,13 @@ html, body {
   background-position: right top;
 }
 
-/* line 127, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 106, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #footer .container {
   padding-top: 70px;
 }
 
 /*Opera Fix*/
-/* line 132, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 111, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 body:before {
   content: "";
   height: 100%;
