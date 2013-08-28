@@ -53,7 +53,9 @@
               <div class="paragraph">
               <p>GlusterFS is a <strong>distributed file system</strong> capable of scaling to several
               petabytes (actually, 72 brontobytes!) and handling thousands of
-              clients simultaneously.</p>
+              clients simultaneously. It lets you build a scalable networked storage
+              using pretty much any common hardware. It is easy to start small and
+              add more storage later.</p>
               </div>
               <div class="paragraph">
               <p>GlusterFS combines blocks of storage over the network into a single,
@@ -79,11 +81,34 @@
               
               </div>
               <div class="sect2">
-              <h3 id="requirements_link">Client Connectivity Requirements</h3>
+              <h3 id="requirements_link">Requirements</h3>
               <div class="paragraph">
-              <p>Gluster is compatible with all major desktop operating
-              systems. Windows, Mac and Linux hosts can all connect to a Gluster
-              share. There are several options and protocols available:</p>
+              <p>Gluster is compatible with all major operating systems. Windows, Mac,
+              Unix, Linux and other Unix-like operating systems are all
+              supported. There are several options and protocols available. For
+              networking both TCP/IP and Infiniband RDMA are popular choices,
+              depending on your particular needs.</p>
+              </div>
+              <div class="dlist">
+              <dl>
+              <dt class="hdlist1">Native Gluster Protocol </dt>
+              <dd>
+              <p>Native protocol works with Linux hosts that
+              support Filesystem in Userspace (FUSE) mechanism. Gluster Native
+              Client is the recommended method for accessing volumes when high
+              concurrency and high write performance is required.</p>
+              </dd>
+              <dt class="hdlist1">NFS v3 </dt>
+              <dd>
+              <p>Gluster has built-in support for sharing the volume via NFS protcol. This works well for Unix clients as well</p>
+              </dd>
+              <dt class="hdlist1">CIFS (Samba / Windows file sharing) </dt>
+              <dd>
+              <p>You can share the Gluster
+              volume via Samba, which works well when you want to share with MS
+              Windows, or a mix of Windows, Mac and Linux hosts.</p>
+              </dd>
+              </dl>
               </div>
               
               </div>
