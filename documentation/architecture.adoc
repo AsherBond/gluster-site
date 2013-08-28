@@ -7,7 +7,9 @@ navigation: documentation
 
 GlusterFS is a *distributed file system* capable of scaling to several
 petabytes (actually, 72 brontobytes!) and handling thousands of
-clients simultaneously.
+clients simultaneously. It lets you build a scalable networked storage
+using pretty much any common hardware. It is easy to start small and
+add more storage later.
 
 GlusterFS combines blocks of storage over the network into a single,
 large storage pool that is served to client appliances. Gluster can
@@ -28,8 +30,22 @@ sense for and what kind of hardware is realistically required to
 achieve that._
 
 [[requirements_link]]
-=== Client Connectivity Requirements 
+=== Requirements 
 
-Gluster is compatible with all major desktop operating
-systems. Windows, Mac and Linux hosts can all connect to a Gluster
-share. There are several options and protocols available: 
+Gluster is compatible with all major operating systems. Windows, Mac,
+Unix, Linux and other Unix-like operating systems are all
+supported. There are several options and protocols available. For
+networking both TCP/IP and Infiniband RDMA are popular choices,
+depending on your particular needs.
+
+Native Gluster Protocol :: Native protocol works with Linux hosts that
+  support Filesystem in Userspace (FUSE) mechanism. Gluster Native
+  Client is the recommended method for accessing volumes when high
+  concurrency and high write performance is required.
+
+NFS v3 :: Gluster has built-in support for sharing the volume via NFS protcol. This works well for Unix clients as well 
+
+CIFS (Samba / Windows file sharing) :: You can share the Gluster
+  volume via Samba, which works well when you want to share with MS
+  Windows, or a mix of Windows, Mac and Linux hosts.
+
