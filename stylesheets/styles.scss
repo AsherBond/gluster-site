@@ -13,7 +13,7 @@
 
 .navbar .brand {
   font-family: "Lato";
-  font-weight: 900 !important;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
@@ -38,23 +38,6 @@ hr {
   border: 0;
   height: 1px; 
   background: rgba(0,0,0,0.2); 
-}
-
-footer {
-  color: #666;
-  background: #171717;
-  background: linear-gradient(to bottom, rgb(23,23,23) 0%,rgb(42,42,42) 100%); /* W3C */
-  margin-top: 0px;
-  padding-top: 21px;
-  padding-bottom: 342px;
-}
-
-.antsmarching {
-  background-image: url("https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/images/antsmarching.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 60px;
-  margin-top: 30px;
 }
 
 #documentation #presentations {
@@ -121,4 +104,36 @@ h1 small {
   } 
 }
  
+/* sticky footer #wrap */
+html, body { height: 100%;} 
+#wrap { min-height: 100%; }
+#main { 
+  padding-top: 60px;
+  overflow:auto;
+  padding-bottom: 150px; }  /* must be same height as the footer */
+
+#footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  color: #666;
+  background-image: url("https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/images/footer-background.png"), url("https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/images/antsmarching.png");
+
+  background-repeat: repeat-x, no-repeat;
+  background-position: right top;
+} 
+
+#footer .container {
+  padding-top: 70px;
+}
+
+/*Opera Fix*/
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;
+}
 
