@@ -116,3 +116,22 @@ body:before {
   margin-top:-32767px;
 }
 
+// responsive footer fix
+@media (max-width: 767px) {
+  #footer .container, .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  body { 
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container#main {
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
+}
