@@ -8320,24 +8320,30 @@ hr {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 43, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-#documentation #presentations {
-  background: rgba(255, 255, 255, 0.2);
+/* line 44, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+#documentation pre {
+  background: rgba(255, 255, 255, 0.25);
+  border: 0;
 }
 
-/* line 47, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 49, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 h1 small {
   color: #666;
   text-shadow: none;
 }
 
-/* line 52, /home/tigert/git/gluster-site/stylesheets/styles.scss */
-#documentation #documentationpage {
-  padding-top: 0;
+/* line 54, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+.side-index {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* line 58, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+.side-index h4 {
+  margin-top: 0;
 }
 
 @media (max-width: 980px) {
-  /* line 60, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 66, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   body#blog #blognav,
   body#documentation #documentationnav,
   body#community #communitynav,
@@ -8346,12 +8352,12 @@ h1 small {
   }
 }
 @media (min-width: 980px) {
-  /* line 65, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 71, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .navbar-inner {
     border-bottom: 0;
   }
 
-  /* line 69, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 75, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   body#blog #blognav,
   body#documentation #documentationnav,
   body#community #communitynav,
@@ -8361,30 +8367,30 @@ h1 small {
   }
 }
 @media (min-width: 767px) {
-  /* line 76, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 82, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   footer, .container {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 80, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 86, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .navbar {
     margin-left: 0;
     margin-right: 0;
   }
 }
 /* sticky footer #wrap */
-/* line 87, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 93, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 html, body {
   height: 100%;
 }
 
-/* line 88, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 94, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #wrap {
   min-height: 100%;
 }
 
-/* line 89, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 95, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #main {
   padding-top: 60px;
   overflow: auto;
@@ -8392,7 +8398,7 @@ html, body {
 }
 
 /* must be same height as the footer */
-/* line 94, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 100, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #footer {
   position: relative;
   margin-top: -150px;
@@ -8405,13 +8411,13 @@ html, body {
   background-position: right top;
 }
 
-/* line 106, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 112, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 #footer .container {
   padding-top: 70px;
 }
 
 /*Opera Fix*/
-/* line 111, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+/* line 117, /home/tigert/git/gluster-site/stylesheets/styles.scss */
 body:before {
   content: "";
   height: 100%;
@@ -8421,25 +8427,25 @@ body:before {
 }
 
 @media (max-width: 767px) {
-  /* line 121, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 127, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   #footer .container, .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
   }
 
-  /* line 125, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 131, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .navbar {
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 129, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 135, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   body {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 133, /home/tigert/git/gluster-site/stylesheets/styles.scss */
+  /* line 139, /home/tigert/git/gluster-site/stylesheets/styles.scss */
   .container#main {
     padding-left: 20px;
     padding-right: 20px;
