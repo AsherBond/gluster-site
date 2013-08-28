@@ -1,5 +1,5 @@
 name: Gluster Website
-title: GLUSTER - Massive storage for your Cloud.
+title: GLUSTER - Massive storage.
 org: gluster community
 
 profiles:
@@ -11,6 +11,7 @@ profiles:
     minify: false
   forge:
     base_url: 'https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/'
+    minify: true
   final:
     base_url: 'http://www.gluster.org'
     minify: true
