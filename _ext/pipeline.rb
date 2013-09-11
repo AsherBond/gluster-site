@@ -1,5 +1,4 @@
 require 'bootstrap-sass'
-require 'readmore'
 require 'erubis'
 require 'tilt'
 
