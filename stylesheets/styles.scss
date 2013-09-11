@@ -46,7 +46,16 @@ hr {
   border: 0;
 }
 
-h1 small {
+/* blog styling */
+.post {
+  margin-bottom: 48px;
+}
+
+.post-title {
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+h1 small, h2 small {
   color: #666;
   text-shadow: none;
 }
