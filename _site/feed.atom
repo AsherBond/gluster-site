@@ -1,5 +1,315 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/</id>
-  <title>GLUSTER - Massive storage.</title>
+  <title>Gluster</title>
+  <updated>2013-09-11T14:34:43+03:00</updated>
+  <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/feed.atom" rel="self" type="application/atom+xml" />
+  <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/" rel="alternate" type="text/html" />
+  <entry>
+    <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/09/10/test-post/</id>
+    <title>This is a blog entry!</title>
+    <updated>2013-09-11T14:34:43+03:00</updated>
+    <published>2013-09-10T00:00:00+00:00</published>
+    <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/09/10/test-post/" rel="alternate" type="text/html" />
+    <category term="test"></category>
+    <category term="boo"></category>
+    <category term="zoo"></category>
+    <summary>
+      
+      
+      
+      Blog entries are written as asciidoc files inside the "blog" folder. They need to be named specially to be recognized as blog posts, namely with YYYY-MM-DD-whatever.adoc. They can be written with any markup or html language whatsoever, but asciidoc has the nice feature that the first headline of the document (like the one above!) automatically becomes the post title, so you can forget assigning a post title in the frontmatter.
+      
+      
+      The frontmatter (the stuff in top between the triple dashes) needs to however have the following things:
+      
+      
+      
+      
+      
+      author: if you want to set an author specifically, can be omitted if not needed...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Blog entries are written as asciidoc files inside the &quot;blog&quot; folder. They need to be named specially to be recognized as blog posts, namely with YYYY-MM-DD-whatever.adoc. They can be written with any markup or html language whatsoever, but asciidoc has the nice feature that the first headline of the document (like the one above!) automatically becomes the post title, so you can forget assigning a post title in the frontmatter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The &lt;em&gt;frontmatter&lt;/em&gt; (the stuff in top between the triple dashes) needs to however have the following things:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;author: if you want to set an author specifically, can be omitted if not needed (the layout checks whether it exists)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;tags: if you want to use them somehow&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;title: the post title, if you are using something else than asciidoc.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Everything below the frontmatter is just content, which can be more or less anything, with the exception that the first headline needs to be there as it becomes the site title, if you use asciidoc.&lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/29/foobar/</id>
+    <title>New Gluster Release Roadmap Announced!</title>
+    <updated>2013-09-11T14:23:37+03:00</updated>
+    <published>2013-08-29T00:00:00+00:00</published>
+    <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/29/foobar/" rel="alternate" type="text/html" />
+    <author>
+      <name>John Smith</name>
+    </author>
+    <category term="john"></category>
+    <category term="releases"></category>
+    <summary>
+      
+      
+      
+      Today we&#8217;re announcing the new Gluster Roadmap for releases! Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.
+      
+      
+      Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. Next than near to four so hand. Times so do he downs me would. Witty abode party her found quiet law. They door four bed fail now have.
+      
+      
+      Two exquisite objection delighted...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Today we’re announcing the new Gluster Roadmap for releases! Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. Next than near to four so hand. Times so do he downs me would. Witty abode party her found quiet law. They door four bed fail now have.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Two exquisite &lt;strong&gt;objection delighted deficient yet its contained&lt;/strong&gt;! Cordial because are account evident its subject but eat. Can properly followed learning prepared you doubtful yet him. Over many our good lady feet ask that. Expenses own moderate day fat trifling stronger sir domestic feelings. Itself at be answer always exeter up do. Though or my plenty uneasy do. Friendship so considered remarkably be to sentiments. Offered mention greater fifteen one promise because nor. Why denoting speaking fat indulged saw dwelling raillery.&lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/21/foobar/</id>
+    <title>Lorem Ipsum can be boring.</title>
+    <updated>2013-09-11T14:32:26+03:00</updated>
+    <published>2013-08-21T00:00:00+00:00</published>
+    <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/21/foobar/" rel="alternate" type="text/html" />
+    <author>
+      <name>Antsy Pants</name>
+    </author>
+    <category term="test"></category>
+    <summary>
+      
+      
+      
+      Твердою до Которым Ах Им храмина угождал Но яр явилась их Ум. Мир очи тот Был. Всею во Ту те одно ум сидя Их Из Да зрят. ﻿кто. Рук ада расселась соединюся щит двигнутся стихийной Там. Низшим святою Биенье. . .
+      
+      
+      Вер шаг рек тут Сем Зрю. Милосердью Не Но прославить милосердие та не Ко бы со Поработают Во. . Честность Державину возможешь тревожном. . Гордости праведна Сожженна хваленье воцарить. . Бег мою дух они нам.
+      
+      
+      Яры Оно сил оны лия. Цветах придет суетны. Сей раб муж око Луг жен сие. Сан яра Лик жив сие чаю миг. Злом реву Прав ведя...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Твердою до Которым Ах Им храмина угождал Но яр явилась их Ум. Мир очи тот Был. Всею во Ту те одно ум сидя Их Из Да зрят. ﻿кто. Рук ада расселась соединюся щит двигнутся стихийной Там. Низшим святою Биенье. . .&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Вер шаг рек тут Сем Зрю. Милосердью Не Но прославить милосердие та не Ко бы со Поработают Во. . Честность Державину возможешь тревожном. . Гордости праведна Сожженна хваленье воцарить. . Бег мою дух они нам.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Яры Оно сил оны лия. Цветах придет суетны. Сей раб муж око Луг жен сие. Сан яра Лик жив сие чаю миг. Злом реву Прав ведя моем Лучи. . Всю Для тук Дол Перфильев нам Сии бряцаньем грешников. . . Ли ты Бесстрашен мгновенный милосердие уж неимоверна ухищреньем на гл.&lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/09/foobar/</id>
+    <title>Generating fake content for testing</title>
+    <updated>2013-09-11T14:21:59+03:00</updated>
+    <published>2013-08-09T00:00:00+00:00</published>
+    <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/09/foobar/" rel="alternate" type="text/html" />
+    <author>
+      <name>Mark Ant Hony</name>
+    </author>
+    <category term="test"></category>
+    <summary>
+      
+      
+      
+      Fu en leuchtete du verwegene nachgehen la kindliche zierliche. Pa erschrak hinunter zwischen nirgends zu en ratloses. Die fur herde abend als gehen adieu danke. Grad frau aber bis sei ruth. Langsam wahrend heiland da richten sa bedeckt leuchte wo ja. Ist lohgruben furchtete betrubtes nur sudwesten ausgeruht ausdenken. Ferne namen denen regen lag nie davon naher. Bilderbuch dir erkundigte fluchtigen aus geschwatzt zaunpfahle wie. Das besonderes vertreiben hut grashalden fur aneinander ihr.
+      
+      
+      Eine arme ihm also tat zum dank hut furs. Madchens brannten nur auf gerberei man heiraten hindurch. Langsam ihr schlank wandern gar mag melodie. Bis ist nur vom...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Fu en leuchtete du verwegene nachgehen la kindliche zierliche. Pa erschrak hinunter zwischen nirgends zu en ratloses. Die fur herde abend als gehen adieu danke. Grad frau aber bis sei ruth. Langsam wahrend heiland da richten sa bedeckt leuchte wo ja. Ist lohgruben furchtete betrubtes nur sudwesten ausgeruht ausdenken. Ferne namen denen regen lag nie davon naher. Bilderbuch dir erkundigte fluchtigen aus geschwatzt zaunpfahle wie. Das besonderes vertreiben hut grashalden fur aneinander ihr.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Eine arme ihm also tat zum dank hut furs. Madchens brannten nur auf gerberei man heiraten hindurch. Langsam ihr schlank wandern gar mag melodie. Bis ist nur vom herein heftig bilder. Herkommen anzeichen bis vor ernsthaft ein argerlich meisterin. Wurden spater uns liegen bin ein des spital. Unbemerkt ernstlich nebendran lohgruben unendlich aufraumen ich ton.&lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/04/foobar/</id>
+    <title>This is how we roll</title>
+    <updated>2013-09-11T14:20:23+03:00</updated>
+    <published>2013-08-04T00:00:00+00:00</published>
+    <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/04/foobar/" rel="alternate" type="text/html" />
+    <author>
+      <name>Antsy Pants</name>
+    </author>
+    <category term="test"></category>
+    <summary>
+      
+      
+      
+      Parish so enable innate in formed missed. Hand two was eat busy fail. Stand smart grave would in so. Be acceptance at precaution astonished excellence thoroughly is entreaties. Who decisively attachment has dispatched. Fruit defer in party me built under first. Forbade him but savings sending ham general. So play do in near park that pain.
+      
+      
+      Uneasy barton seeing remark happen his has. Am possible offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am on if indulgence. Exeter talked in agreed spirit no he unable do. Betrayed shutters in vicinity it unpacked in. In so impossible appearance...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Parish so enable innate in formed missed. Hand two was eat busy fail. Stand smart grave would in so. Be acceptance at precaution astonished excellence thoroughly is entreaties. Who decisively attachment has dispatched. Fruit defer in party me built under first. Forbade him but savings sending ham general. So play do in near park that pain.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Uneasy barton seeing remark happen his has. Am possible offering at contempt mr distance stronger an. Attachment excellence announcing or reasonable am on if indulgence. Exeter talked in agreed spirit no he unable do. Betrayed shutters in vicinity it unpacked in. In so impossible appearance considered mr. Mrs him left find are good.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Delightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can must form into gate. Me we offending prevailed discovery.&lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/02/foobar/</id>
+    <title>Blog entries are simple text files</title>
+    <updated>2013-09-11T14:20:33+03:00</updated>
+    <published>2013-08-02T00:00:00+00:00</published>
+    <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/02/foobar/" rel="alternate" type="text/html" />
+    <author>
+      <name>Antsy Pants</name>
+    </author>
+    <category term="test"></category>
+    <summary>
+      
+      
+      
+      Children of the sun, see your time has just begun, searching for your ways, through adventures every day. Every day and night, with the condor in flight, with all your friends in tow, you search for the Cities of Gold. Ah-ah-ah-ah-ah&#8230; wishing for The Cities of Gold. Ah-ah-ah-ah-ah&#8230; some day we will find The Cities of Gold. Do-do-do-do ah-ah-ah, do-do-do-do, Cities of Gold. Do-do-do-do, Cities of Gold. Ah-ah-ah-ah-ah&#8230; some day we will find The Cities of Gold.
+      
+      
+      This is my boss, Jonathan Hart, a self-made millionaire, he&#8217;s quite a guy. This is Mrs H., she&#8217;s gorgeous, she&#8217;s one lady who knows...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Children of the sun, see your time has just begun, searching for your ways, through adventures every day. Every day and night, with the condor in flight, with all your friends in tow, you search for the Cities of Gold. Ah-ah-ah-ah-ah… wishing for The Cities of Gold. Ah-ah-ah-ah-ah… some day we will find The Cities of Gold. Do-do-do-do ah-ah-ah, do-do-do-do, Cities of Gold. Do-do-do-do, Cities of Gold. Ah-ah-ah-ah-ah… some day we will find The Cities of Gold.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This is my boss, Jonathan Hart, a self-made millionaire, he’s quite a guy. This is Mrs H., she’s gorgeous, she’s one lady who knows how to take care of herself. By the way, my name is Max. I take care of both of them, which ain’t easy, 'cause when they met it was MURDER!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn’t commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.&lt;/p&gt;
+      &lt;/div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/07/20/new-release/</id>
+    <title>Hello world, we are testing the new blog!</title>
+    <updated>2013-09-11T14:25:36+03:00</updated>
+    <published>2013-07-20T00:00:00+00:00</published>
+    <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/07/20/new-release/" rel="alternate" type="text/html" />
+    <author>
+      <name>Antsy Pants</name>
+    </author>
+    <category term="test"></category>
+    <summary>
+      
+      
+      
+      
+      
+      
+      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+      
+      
+      Cubilia Curae; Nulla id velit tincidunt, rhoncus mauris non!
+      
+      
+      Fringilla magna. Fusce tincidunt dui enim, sed sodales quam fermentum eget. Fusce imperdiet sem eu justo porttitor, sed mattis justo sollicitudin.
+      
+      
+      Duis aliquam ornare sem in sodales.
+      
+      
+      Cras cursus, enim et placerat sodales, lectus tellus sollicitudin felis, quis vestibulum lorem leo vel nisi. Phasellus eget semper velit.
+      
+      
+      
+      
+      
+      
+      
+      
+      ...
+    </summary>
+    <content type="html">
+      &lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Cubilia Curae; Nulla id velit tincidunt, rhoncus mauris non!&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Fringilla magna. Fusce tincidunt dui enim, sed sodales quam fermentum eget. Fusce imperdiet sem eu justo porttitor, sed mattis justo sollicitudin.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Duis aliquam ornare sem in sodales.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Cras cursus, enim et placerat sodales, lectus tellus sollicitudin felis, quis vestibulum lorem leo vel nisi. Phasellus eget semper velit.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+    </content>
+  </entry>
 </feed>
