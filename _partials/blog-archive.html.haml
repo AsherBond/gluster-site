@@ -1,28 +1,7 @@
-%h4 Archive
-%p Here are the past articles. This list needs to be generated automatically, I bet there exists some script-fu to do it :-)
+%h3 News Archive
 %dl
-  %dt 2013 Jan 19.
-  %dd Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  %dt 2013 Jan 02.
-  %dd Etiam vitae sapien et tortor tristique auctor id tristique sapien.
-  %dt 2012 Nov 26.
-  %dd Aliquam a mi non nunc molestie posuere id eget arcu.
-  %dt 2012 Nov 24.
-  %dd Vestibulum ullamcorper erat eget purus sodales pretium.
-  %dt 2012 Sep 29.
-  %dd Nulla aliquam neque vel mauris tempor, id mattis arcu posuere.
-  %dt 2012 Jun 18.
-  %dd Duis placerat augue ut viverra laoreet.
-  %dt 2012 Mar 18.
-  %dd Donec lacinia ante non ante scelerisque, eu aliquam lacus suscipit.
-  %dt 2011 Dec 30.
-  %dd Pellentesque sed nunc vitae tortor accumsan tempus sit amet ac neque.
-  %dt 2011 Nov 23.
-  %dd Ut sit amet elit varius, elementum lacus in, hendrerit eros.
-  %dt 2011 Jul 05.
-  %dd Ut rutrum turpis id ornare venenatis.
-  %dt 2011 Jun 12.
-  %dd Ut non neque suscipit, rutrum arcu eu, commodo mauris.
-  %br
-  %p 
-    %a{ :href=>'' } More posts in the complete archive...
+  - for post in site.posts
+    %dt
+      %a{:href=>post.url}= post.title
+    %dd 
+      = post.date.strftime( '%d %B %Y' )
