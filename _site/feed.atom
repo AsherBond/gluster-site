@@ -2,13 +2,13 @@
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
   <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/</id>
   <title>Gluster</title>
-  <updated>2013-09-11T14:34:43+03:00</updated>
+  <updated>2013-09-25T20:40:54+01:00</updated>
   <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/feed.atom" rel="self" type="application/atom+xml" />
   <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/" rel="alternate" type="text/html" />
   <entry>
     <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/09/10/test-post/</id>
     <title>This is a blog entry!</title>
-    <updated>2013-09-11T14:34:43+03:00</updated>
+    <updated>2013-09-25T20:40:54+01:00</updated>
     <published>2013-09-10T00:00:00+00:00</published>
     <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/09/10/test-post/" rel="alternate" type="text/html" />
     <category term="test"></category>
@@ -26,7 +26,6 @@
       
       
       
-      
       author: if you want to set an author specifically, can be omitted if not needed...
     </summary>
     <content type="html">
@@ -39,7 +38,6 @@
       &lt;p&gt;The &lt;em&gt;frontmatter&lt;/em&gt; (the stuff in top between the triple dashes) needs to however have the following things:&lt;/p&gt;
       &lt;/div&gt;
       &lt;div class=&quot;ulist&quot;&gt;
-      
       &lt;ul&gt;
       &lt;li&gt;
       &lt;p&gt;author: if you want to set an author specifically, can be omitted if not needed (the layout checks whether it exists)&lt;/p&gt;
@@ -55,7 +53,6 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;Everything below the frontmatter is just content, which can be more or less anything, with the exception that the first headline needs to be there as it becomes the site title, if you use asciidoc.&lt;/p&gt;
       &lt;/div&gt;
-      
       &lt;/div&gt;
       &lt;/div&gt;
     </content>
@@ -63,7 +60,7 @@
   <entry>
     <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/29/foobar/</id>
     <title>New Gluster Release Roadmap Announced!</title>
-    <updated>2013-09-11T14:23:37+03:00</updated>
+    <updated>2013-09-25T20:40:54+01:00</updated>
     <published>2013-08-29T00:00:00+00:00</published>
     <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/29/foobar/" rel="alternate" type="text/html" />
     <author>
@@ -95,7 +92,6 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;Two exquisite &lt;strong&gt;objection delighted deficient yet its contained&lt;/strong&gt;! Cordial because are account evident its subject but eat. Can properly followed learning prepared you doubtful yet him. Over many our good lady feet ask that. Expenses own moderate day fat trifling stronger sir domestic feelings. Itself at be answer always exeter up do. Though or my plenty uneasy do. Friendship so considered remarkably be to sentiments. Offered mention greater fifteen one promise because nor. Why denoting speaking fat indulged saw dwelling raillery.&lt;/p&gt;
       &lt;/div&gt;
-      
       &lt;/div&gt;
       &lt;/div&gt;
     </content>
@@ -103,7 +99,7 @@
   <entry>
     <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/21/foobar/</id>
     <title>Lorem Ipsum can be boring.</title>
-    <updated>2013-09-11T14:32:26+03:00</updated>
+    <updated>2013-09-25T20:40:54+01:00</updated>
     <published>2013-08-21T00:00:00+00:00</published>
     <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/21/foobar/" rel="alternate" type="text/html" />
     <author>
@@ -134,7 +130,6 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;Яры Оно сил оны лия. Цветах придет суетны. Сей раб муж око Луг жен сие. Сан яра Лик жив сие чаю миг. Злом реву Прав ведя моем Лучи. . Всю Для тук Дол Перфильев нам Сии бряцаньем грешников. . . Ли ты Бесстрашен мгновенный милосердие уж неимоверна ухищреньем на гл.&lt;/p&gt;
       &lt;/div&gt;
-      
       &lt;/div&gt;
       &lt;/div&gt;
     </content>
@@ -142,7 +137,7 @@
   <entry>
     <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/09/foobar/</id>
     <title>Generating fake content for testing</title>
-    <updated>2013-09-11T14:21:59+03:00</updated>
+    <updated>2013-09-25T20:40:54+01:00</updated>
     <published>2013-08-09T00:00:00+00:00</published>
     <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/09/foobar/" rel="alternate" type="text/html" />
     <author>
@@ -167,7 +162,6 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;Eine arme ihm also tat zum dank hut furs. Madchens brannten nur auf gerberei man heiraten hindurch. Langsam ihr schlank wandern gar mag melodie. Bis ist nur vom herein heftig bilder. Herkommen anzeichen bis vor ernsthaft ein argerlich meisterin. Wurden spater uns liegen bin ein des spital. Unbemerkt ernstlich nebendran lohgruben unendlich aufraumen ich ton.&lt;/p&gt;
       &lt;/div&gt;
-      
       &lt;/div&gt;
       &lt;/div&gt;
     </content>
@@ -175,7 +169,7 @@
   <entry>
     <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/04/foobar/</id>
     <title>This is how we roll</title>
-    <updated>2013-09-11T14:20:23+03:00</updated>
+    <updated>2013-09-25T20:40:54+01:00</updated>
     <published>2013-08-04T00:00:00+00:00</published>
     <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/04/foobar/" rel="alternate" type="text/html" />
     <author>
@@ -203,7 +197,6 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;Delightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can must form into gate. Me we offending prevailed discovery.&lt;/p&gt;
       &lt;/div&gt;
-      
       &lt;/div&gt;
       &lt;/div&gt;
     </content>
@@ -211,7 +204,7 @@
   <entry>
     <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/02/foobar/</id>
     <title>Blog entries are simple text files</title>
-    <updated>2013-09-11T14:20:33+03:00</updated>
+    <updated>2013-09-25T20:40:54+01:00</updated>
     <published>2013-08-02T00:00:00+00:00</published>
     <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/08/02/foobar/" rel="alternate" type="text/html" />
     <author>
@@ -239,7 +232,6 @@
       &lt;div class=&quot;paragraph&quot;&gt;
       &lt;p&gt;Ten years ago a crack commando unit was sent to prison by a military court for a crime they didn’t commit. These men promptly escaped from a maximum security stockade to the Los Angeles underground. Today, still wanted by the government, they survive as soldiers of fortune. If you have a problem and no one else can help, and if you can find them, maybe you can hire the A-team.&lt;/p&gt;
       &lt;/div&gt;
-      
       &lt;/div&gt;
       &lt;/div&gt;
     </content>
@@ -247,7 +239,7 @@
   <entry>
     <id>https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/07/20/new-release/</id>
     <title>Hello world, we are testing the new blog!</title>
-    <updated>2013-09-11T14:25:36+03:00</updated>
+    <updated>2013-09-25T20:40:54+01:00</updated>
     <published>2013-07-20T00:00:00+00:00</published>
     <link href="https://forge.gluster.org/gluster-site/gluster-site/blobs/raw/master/_site/blog/2013/07/20/new-release/" rel="alternate" type="text/html" />
     <author>
@@ -255,7 +247,6 @@
     </author>
     <category term="test"></category>
     <summary>
-      
       
       
       
@@ -278,17 +269,12 @@
       
       
       
-      
-      
-      
-      
       ...
     </summary>
     <content type="html">
       &lt;div id=&quot;preamble&quot;&gt;
       &lt;div class=&quot;sectionbody&quot;&gt;
       &lt;div class=&quot;ulist&quot;&gt;
-      
       &lt;ul&gt;
       &lt;li&gt;
       &lt;p&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere&lt;/p&gt;
@@ -307,7 +293,6 @@
       &lt;/li&gt;
       &lt;/ul&gt;
       &lt;/div&gt;
-      
       &lt;/div&gt;
       &lt;/div&gt;
     </content>
