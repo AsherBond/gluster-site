@@ -1,0 +1,9 @@
+- home: "/"
+- Menu1: "optional_nojs_fallback_link"
+  boo: "#bleh"
+  boo2: "#bleh"
+- Menu w/o link:
+  boo: "#bleh"
+- Blog: blog
+- text string
+- text string w/o a link:

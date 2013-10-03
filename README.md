@@ -1,78 +1,59 @@
-## Gluster.org website, built with awestruct ##
+# Munity
 
-## Initial Setup ##
+Munity is a starter-pack for Middleman, for quickly whipping together
+static-based community websites.
 
-### For Fedora 19 ###
+Think of "community" without the "com". Munity means "freedom" and
+"security" — which are things a static site can help to bring (on
+a small scale).
 
-1. Install the rubygems, ruby-devel, and nodejs packages
+Munity was inspired by the [middleman-hamlsasscoffee template](https://github.com/pixelsonly/middleman-hamlsasscoffee)
 
-        $ sudo yum install rubygems ruby-devel nodejs
+## Installation
+ 
+1. Clone this repo into `~/.middleman`. You will need to create this
+   directory if it doesn't exist.
 
-2. Install the Rubygems used for the GlusterFS website
+  `$ git clone GIT_URL_HERE ~/.middleman/munity`
 
-        $ gem install asciidoctor awestruct coffee-script \
-          erubis htmlcompressor redcarpet uglifier
+2. Initialize middleman on a new or existing folder 
 
-
-## Building the site ##
-
-To generate the website then serve it from localhost, use:
-
-    $ awestruct -s
-
-You should then be able to view it in a browser by going
-to [http://localhost:4242](http://localhost:4242).
+  `$ middleman init path_to_project --template=munity`
 
 
-## Notes ##
+## Usage
 
-### Fonts and layout ###
+### View locally
 
-* We are using Bootstrap for layout
-* We use the Open Sans font from [http://fonts.google.com](Google Fonts) on the site.
-* Local changes to CSS are in `stylesheets/style.css`.
-* Colors and fonts are defined in `stylesheets/_variables.scss`.  This is an SCSS file that gets processed by awestruct.
+1. Start up Middleman by typing `bundle exec middleman` (or if you have
+   it in your path, just `middleman` works).
+   
+   Middleman will start up a development server. 
 
-### When committing changes ###
+2. Next, browse to <http://0.0.0.0:4567>
 
-**When committing, also commit the generated `_site` folder to git**
+3. Edit! 
 
-We don't (yet) have a toolchain in place to automatically regenerate
-the website after a commit.
-
-For this reason, we have three profiles in `site/config.yml`:
-
-#### devel ####
-
-For viewing locally, base_url gets set to localhost:4242 for testing.
-
-    $ awestruct -P devel -s
+   When you edit files (pages, layouts, CSS, etc.), the site will
+   dyanmically update in development mode. (There's no need to refresh
+   the page, unless you get a Ruby error.)
 
 
-#### forge ####
+### Build your static site
 
-Generates a site that works when viewed on the
-[forge.gluster.org](http://forge.gluster.org) git repository in raw view.
+After getting it how you want, you can build the static site by running:
 
-    $ awestruct -P forge -s
+`bundle exec middleman build`
 
-For this to work, please remember to add the index.html to the end of
-folder urls, as the git viewer does not automatically serve _index.html_
-when given a bare folder name.
-
-eg use:
-
-&nbsp; &nbsp; http://www.mysite.org/somefolder/index.html
-
-instead of:
-
-&nbsp; &nbsp; http://www.mysite.org/somefolder/
+(If you have middleman in your path, you can just run `middleman build`.)
 
 
-#### final ####
+### Add new parsers
 
-For generating the real www.gluster.org - when it is ready to be
-launched.
+Simply add a new `gem 'some-gem-here'` line in the `Gemfile` and run
+`bundle install`
 
-    $ awestruct -P final -s
+## More info
 
+For more information, please check the excellent 
+[Middleman documentation](http://middlemanapp.com/getting-started/).

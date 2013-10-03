@@ -1,0 +1,10 @@
+- wrap_layout :layout do
+  .row
+    .col-md-8
+      = yield
+    .col-md-4
+      .panel.pull-right.panel-primary
+        .panel-heading
+          %h2panel-title GlusterFS Documentation
+        .panel-body
+          = partial :nav, locals: { data_source: "documentation", nav_class: "nav-pills nav-stacked"  }

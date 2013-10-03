@@ -1,0 +1,16 @@
+---
+title: This is a blog entry!
+author: Antsy Pants
+tags: [ help ]
+---
+
+Blog entries are written as asciidoc files inside the "blog" folder. They need to be named specially to be recognized as blog posts, namely with YYYY-MM-DD-whatever.adoc. They can be written with any markup or html language whatsoever, but asciidoc has the nice feature that the first headline of the document (like the one above!) automatically becomes the post title, so you can forget assigning a post title in the frontmatter. If you don't have it defined, however, your blog posts will not have a title, and thus are un-navigable in the index!
+
+The _frontmatter_ (the stuff in top between the triple dashes) needs to however have the following things:
+
+ * author: if you want to set an author specifically, can be omitted if not needed (the layout checks whether it exists)
+ * tags: if you want to use them somehow
+ * title: the post title, if you are using something else than asciidoc.
+
+Everything below the frontmatter is just content, which can be more or less anything, with the exception that the first headline needs to be there as it becomes the site title, if you use asciidoc.
+
