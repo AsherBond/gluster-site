@@ -1,7 +1,0 @@
-%h3 News Archive
-%dl
-  - for post in site.posts
-    %dt
-      %a{:href=>post.url}= post.title
-    %dd 
-      = post.date.strftime( '%d %B %Y' )
