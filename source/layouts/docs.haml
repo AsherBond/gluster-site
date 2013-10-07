@@ -5,6 +5,24 @@
     .col-md-4
       .panel.pull-right.panel-primary
         .panel-heading
-          %h2panel-title GlusterFS Documentation
+          %h4.panel-title Documentation
         .panel-body
-          = partial :nav, locals: { data_source: "documentation", nav_class: "nav-pills nav-stacked"  }
+          %ul.nav(role="navigation")
+            - data['documentation'].each do |item|
+              - if item.is_a?(String)
+                -#%p.nav-text= item.parameterize
+              - elsif item.count == 1        
+                - item.each do |text, link|
+                  - if link
+                    %li= link_to text, link, class: 'nav-' + text.parameterize
+                  - else
+                    -#%p.nav-text{class: text.parameterize}= text
+              - else
+                %li.category
+                  %h4
+                    %a(href="#{item.first[1] || '#'}" class="#{item.first[0].parameterize}")
+                    = item.first[0]
+                  %ul.nav
+                    - item.each do |text, link|
+                      - unless text == item.first[0]
+                        %li= link_to text, link, class: 'nav-' + text.parameterize
