@@ -1,10 +1,6 @@
 ---
-navigation: documentation
+title: Getting Started with GlusterFS 3.4
 ---
-
-Getting Started with GlusterFS 3.4
-----------------------------------
-
 Purpose
 ~~~~~~~
 

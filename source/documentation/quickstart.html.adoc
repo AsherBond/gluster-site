@@ -1,8 +1,6 @@
 ---
-navigation: documentation
+title: Quick Start Guide
 ---
-
-## Really Really Quick Start Guide
 
 Here are the bare minimum steps you need to get Gluster up and
 running.  If this is your first time setting things up, it is
