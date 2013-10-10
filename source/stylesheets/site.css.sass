@@ -1,3 +1,6 @@
+@import "compass/css3"
+@import "compass/typography/lists/bullets"
+
 // Gluster specific styling..
 
 // this is the gluster logo
@@ -11,6 +14,7 @@ a.navbar-brand
   border-bottom: none
   font-weight: 600
 
+// this is the coloring of the navbar for active section
 .blog #blognav, .documentation #documentationnav, .community #communitynav
   border-bottom: 3px solid rgb(171, 214, 59)
   padding-bottom: 8px
@@ -32,9 +36,21 @@ hr
   margin-top: 42px
   padding-top: 64px
 
-.panel
-  background: rgba(255,255,255,0.8)
+.blog aside, .documentation aside
+  padding: 16px
+  border-left: 1px solid rgba(0,0,0,0.1)
 
-.panel h3
-  font-weight: 400
+aside ul
+  +no-bullets
+  padding-left: 12px
+
+aside h3
+  border-bottom: 1px solid rgba(0,0,0,0.1)
+
+.blog .meta, .post_info, .blog aside ul span
+  font-size: 80%
+  color: #666
+
+.post a.btn
+  display: none
 
