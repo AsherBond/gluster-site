@@ -1,7 +1,11 @@
-- Getting Started with GlusterFS:
-  QuickStart - get up and running quickly!: /documentation/quickstart/index.html
-  Getting Started, more in depth: /documentation/gettingstarted/index.html
+- Getting Started:
+  QuickStart - get up and running quickly!: /documentation/quickstart/
+  Getting Started, more in depth: /documentation/getting_started/
+  GlusterFS Concepts & Architecture: /documentation/architecture/
 - Further Reading:
-  GlusterFS Concepts & Architecture: /documentation/architecture/index.html
-  HOWTO Guides: /documentation/howto/index.html
-- Troubleshooting: /documentation/troubleshooting/index.html
+  Document Writing instructions: /documentation/doc-writing-howto/
+  Document in a Subfolder: /documentation/foobar/otherdoc/
+- This is a Header:
+  This is an article: /this/is/the/url
+  This is another article: /this/is/the/url
+  This is yet another article: /this/is/the/url

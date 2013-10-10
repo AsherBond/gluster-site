@@ -1,0 +1,13 @@
+---
+title: Other Document In a Subdir!
+---
+
+This document lives in a subdir and the path is 
+
+  documentation/foobar/otherdoc.html.adoc
+
+Its url will be 
+
+  documentation/foobar/otherdoc/ 
+
+..which should be set in the navigation accordingly.
