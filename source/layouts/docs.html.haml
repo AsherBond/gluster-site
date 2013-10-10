@@ -1,0 +1,8 @@
+- wrap_layout :layout do
+  .row
+    .col-sm-8
+      %h1= current_page.data.title
+      = yield
+    .col-sm-4.hidden-print
+      %aside
+        = partial "nav", locals: { source: "docs", nav_class: "foo", header: "h2" }
