@@ -2,10 +2,42 @@
   QuickStart - get up and running quickly!: /documentation/quickstart/
   Getting Started, more in depth: /documentation/getting_started/
   GlusterFS Concepts & Architecture: /documentation/architecture/
+  Glossary: /documentation/Glossary/
+- Architecture:
+  Feature By Release: /documentation/foo
+  Features Template: /documentation/foo
+  Newbie Guide: /documentation/foo
+  Translators: /documentation/foo
+- Community:
+  Licensing: /documentation/foo
+  Community Governance: /documentation/foo
+  GlusterFest: /documentation/foo
+  Meetups: /documentation/foo
+  Meetings/Minutes: /documentation/foo
+  Planning: /documentation/foo
+  Google SOC: /documentation/foo
+  Swag: /documentation/Swag/
+- Developers:
+  Building Gluster: /documentation/foo
+  Contributors FAQ: /documentation/foo
+  Gluster Testing: /documentation/foo
+  Best Practices: /documentation/foo
+  Development workflow: /documentation/foo
+  Disclaimer: /documentation/foo
+  Getting modglusterfs_to_work: /documentation/foo
+- Use Cases: 
+  HPC: /documentation/foo
+  ZFS: /documentation/foo
+  Cinder: /documentation/foo
+  Keystone Quickstart: /documentation/foo
 - Further Reading:
   Document Writing instructions: /documentation/doc-writing-howto/
   Document in a Subfolder: /documentation/foobar/otherdoc/
-- This is a Header:
-  This is an article: /this/is/the/url
-  This is another article: /this/is/the/url
-  This is yet another article: /this/is/the/url
+#- This is a Header:
+#  This is an article: /this/is/the/url
+#  This is another article: /this/is/the/url
+#  This is yet another article: /this/is/the/url
+- Archives:
+  Gluster 3.2: /documentation/foo
+  Gluster 3.3: /documentation/foo
+  GSP: /documentation/foo
