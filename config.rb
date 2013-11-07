@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
 ###
 # Site settings
 ###
 
-set :site_name, "Gluster"
-set :site_logo, "gluster-logo.png"
-set :site_domain, "gluster.org"
+# Look in data/site.yml for general site configuration
 
 Time.zone = "UTC"
 
@@ -25,7 +22,8 @@ activate :bootstrap_navbar
 set :relative_links, true
 
 # Set HAML to render HTML5 by default (when unspecified)
-set :haml, :format => :html5
+# It's important HAML outputs "ugly" HTML to not mess with code blocks
+set :haml, :format => :html5, :ugly => true
 
 # Set Markdown features for RedCarpet
 # (So our version of Markdown resembles GitHub's)
@@ -135,12 +133,6 @@ end
 # Helpers
 ###
 
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
-# Reload the browser automatically whenever files change
-# activate :livereload
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -169,6 +161,16 @@ helpers do
     #return sometime.to_formatted_s(:short)
     return sometime#.strftime("%d %B")
   end
+
+  # Use the title from frontmatter metadata,
+  # or peek into the page to find the H1,
+  # or fallback to a filename-based-title
+  def discover_title(page = current_page)
+    page.data.title || page.render({layout: false}).match(/<h1>(.*?)<\/h1>/) do |m|
+      m ? m[1] : page.url.split(/\//).last.titleize
+    end
+  end
+
 end
 
 
@@ -202,6 +204,7 @@ configure :build do
   # Minify JavaScript and CSS on build
   activate :minify_javascript
   activate :minify_css
+  activate :gzip
 
   # Force a browser reload for new content by using
   # asset_hash or cache buster (but not both)
@@ -224,4 +227,59 @@ configure :build do
     favicon_maker_input_dir: "source/images",
     favicon_maker_output_dir: "build/images",
     favicon_maker_base_image: "favicon_base.png"
+end
+
+
+###
+# Deployment
+##
+
+if data.site.openshift
+  os_token, os_host = data.site.openshift.match(/([0-9a-f]+)@([^\/]+)/).captures
+
+  deploy_config = {
+    method: :rsync,
+    user: os_token,
+    host: os_host,
+    path: "/var/lib/openshift/#{os_token}/app-root/repo",
+    clean: true, # remove orphaned files on remote host
+    build_before: true # default false
+  }
+
+elsif data.site.rsync
+  rsync = URI.parse(data.site.rsync)
+
+  deploy_config = {
+    method: :rsync,
+    user: rsync.user || ENV[:USER],
+    host: rsync.host,
+    path: rsync.path,
+    port: rsync.port || 22,
+    clean: true, # remove orphaned files on remote host
+    build_before: true # default false
+  }
+
+else
+  # For OpenShift,
+  #
+  # 1) use the barebones httpd cartridge from:
+  #    http://cartreflect-claytondev.rhcloud.com/reflect?github=stefanozanella/openshift-cartridge-httpd
+  #    (Add as URL at the bottom of the create from cartridge page)
+  #
+  # 2) Copy your new site's git repo URL and use it for 'production':
+  #    git remote add production OPENSHIFT_GIT_REMOTE_HERE
+  #
+  # 3) Now, you can easily deploy to your new OpenShift site!
+  #    bundle exec middleman deploy
+
+  deploy_config = {
+    method: :git,
+    remote: "production",
+    branch: "master",
+    build_before: true # default false
+  }
+end
+
+activate :deploy do |deploy|
+  deploy_config.each {|key, val| deploy[key] = val }
 end
