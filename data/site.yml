@@ -1,5 +1,5 @@
-name: Springboard for Middleman
-domain: yourdomain.org
+name: Gluster
+domain: gluster.org
 logo: logo.png
 
 # Owner is used for the automatic copyright string.
@@ -25,9 +25,9 @@ founding_year: 2013 # Defaults to current year if commented
 # To have page-specific tags added, please add a YAML list to "tags:"
 # in that page's frontmatter block (the part at the top between ---)
 keywords:
-  - Middleman
-  - Springboard
-  - Static site
+  - Gluster
+  - GlusterFS
+  - Cloud
 
 ##
 # Deployment: OpenShift
