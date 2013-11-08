@@ -2,8 +2,8 @@
   .row
 
     .col-sm-3.hidden-print
-
-      = partial "nav", locals: { source: "docs", nav_class: "nav-vertical docbrowser", header: "h2.foo" }
+      %aside
+        = partial "nav", locals: { source: "docs", nav_class: "nav-vertical docbrowser", header: "h2.foo" }
 
     .col-sm-9
 
