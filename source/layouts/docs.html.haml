@@ -10,3 +10,7 @@
       %h2= current_page.data.title
 
       = yield
+
+      %p.meta
+        - t = File.mtime(current_page.source_file)
+        = t.strftime("Last modified %B %d, %Y")
