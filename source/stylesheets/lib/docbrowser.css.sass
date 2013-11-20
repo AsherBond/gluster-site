@@ -34,5 +34,12 @@
 @import "compass/css3"
 @import "compass/typography/lists/bullets"
 
-.documentation aside
-  border-right: 1px solid rgba(0,0,0,0.1)
+.documentation 
+  aside
+    border-right: 1px solid rgba(0,0,0,0.1)
+  .meta
+    font-size: 80%
+    color: rgba(black, 0.4)
+
+  pre, tt
+    @include box-shadow(rgba(black, 0.7) 0 0 12px 0 inset)
