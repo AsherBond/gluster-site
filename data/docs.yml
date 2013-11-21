@@ -3,9 +3,10 @@
   Getting Started, more in depth: /documentation/getting_started/
   GlusterFS Concepts & Architecture: /documentation/architecture/
   Glossary: /documentation/Glossary/
+  Technical FAQ: /documentation/Technical_FAQ/
 - Architecture:
-  Feature By Release: /documentation/foo
-  Features Template: /documentation/foo
+  Features Overview: /documentation/architecture/Features_Overview
+ # *placeholder for tracking by release, currently only 3.4 info exists, we may want to remove this* Feature By Release: /documentation/foo
   Newbie Guide: /documentation/foo
   Translators: /documentation/foo
 - Community:
@@ -32,12 +33,13 @@
   Keystone Quickstart: /documentation/foo
 - Further Reading:
   Document Writing instructions: /documentation/doc-writing-howto/
-  Document in a Subfolder: /documentation/foobar/otherdoc/
 #- This is a Header:
 #  This is an article: /this/is/the/url
 #  This is another article: /this/is/the/url
 #  This is yet another article: /this/is/the/url
 - Archives:
   Gluster 3.2: /documentation/foo
-  Gluster 3.3: /documentation/foo
+  3.3 Beta Tests: /documentation/3.3/3.3.0_Beta_4_Tests/
+  3.3 Beta Info: /documentation/3.3/3.3beta/
+  About 3.3: /documentation/3.3/About33
   GSP: /documentation/foo
