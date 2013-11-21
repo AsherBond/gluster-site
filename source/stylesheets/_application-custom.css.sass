@@ -1,9 +1,12 @@
-@import "compass/css3"
-@import "compass/typography/lists/bullets"
+// Here you can put your own custom CSS styling.
+// Font web font definitions and imports should go in _fonts.css.
+// 
+// You should use SASS syntax (http://sass-lang.com/).
+// You can also use Compass mixins (http://compass-style.org/).
 
 // Gluster specific styling..
 
-// this is the gluster logo
+// This is the gluster logo
 a.navbar-brand
   font-family: "Lato"
   font-weight: 900
@@ -20,11 +23,9 @@ a.navbar-brand
   padding-bottom: 8px
 
 .jumbotron
-  border-radius: 0
   background: transparent
 
   h1
-    color: #002242
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4)
 
 hr
@@ -34,23 +35,15 @@ hr
 
 #footer
   margin-top: 42px
-  padding-top: 64px
+  padding-top: 24px
+  margin-bottom: 24px
 
-.blog aside, .documentation aside
-  padding: 16px
-  border-left: 1px solid rgba(0,0,0,0.1)
+pre, tt, code
+  color: $gray-darker
+  background: rgba(black, 0.1)
+  border: none
+  @include box-shadow(rgba(black, 0.2) 0 0 3px 0 inset)
 
-aside ul
-  +no-bullets
-  padding-left: 12px
-
-aside h3
-  border-bottom: 1px solid rgba(0,0,0,0.1)
-
-.blog .meta, .post_info, .blog aside ul span
+.last-modified
   font-size: 80%
-  color: #666
-
-.post a.btn
-  display: none
-
+  color: rgba(black, 0.4)

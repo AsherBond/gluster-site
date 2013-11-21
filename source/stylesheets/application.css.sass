@@ -1,12 +1,15 @@
-// Bootstrap
-@import bootstrap3-variables
-@import bootstrap
+//= require _fonts
+//= require_tree ./vendor
+//= require_tree ./lib
 
-// Compass
-@import compass
+// Various variables to customize bootstrap
+// Uncomment a line and change its value to change the look of your site
+@import bootstrap-custom
 
-//= require vendor/normalize
+// You can uncomment parts of bootstrap that you don't use
+// in _bootstrap-includes.sass, generated from:
+// sass-convert -F scss -T sass {bootstrap-sass}/vendor/assets/stylesheets/bootstrap/bootstrap.scss
+@import bootstrap-includes
 
-// custom css after everything else
-@import fonts
-@import site
+// Site-specific custom rules can be added here
+@import application-custom
