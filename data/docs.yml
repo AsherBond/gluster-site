@@ -6,18 +6,20 @@
   Technical FAQ: /documentation/Technical_FAQ/
 - Architecture:
   Features Overview: /documentation/architecture/Features_Overview
- # *placeholder for tracking by release, currently only 3.4 info exists, we may want to remove this* Feature By Release: /documentation/foo
-  Newbie Guide: /documentation/foo
-  Translators: /documentation/foo
+# *placeholder for tracking by release, currently only 3.4 info exists, we may want to remove this* Feature By Release: /documentation/foo
+#  Newbie Guide: /documentation/foo
+  Translators: /documentation/architecture/Translators
 - Community:
-  Licensing: /documentation/foo
-  Community Governance: /documentation/foo
-  GlusterFest: /documentation/foo
+  Licensing: /documentation/community/GNU_Affero_General_Public_License
+  Community Governance: /documentation/community/Gluster_Community_Governance_Overview
+  Life Cycle: /documentation/community/Life_Cycle
+  GlusterFest: /documentation/GlusterFest
   Meetups: /documentation/foo
-  Meetings/Minutes: /documentation/foo
-  Planning: /documentation/foo
-  Google SOC: /documentation/foo
-  Swag: /documentation/Swag/
+  Meetings/Minutes: /documentation/community/meetings/Meetings_index
+  Planning: /documentation/community/planning/planning_index
+  Presentations: /documentation/community/Presentations
+  Google SOC: /documentation/community/Google_Summer_of_Code_2010_Ideas
+  Swag: /documentation/community/Swag
 - Developers:
   Building Gluster: /documentation/foo
   Contributors FAQ: /documentation/foo
