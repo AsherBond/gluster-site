@@ -25,7 +25,8 @@
   Contributors FAQ: /documentation/foo
   Gluster Testing: /documentation/foo
   Best Practices: /documentation/foo
-  Development workflow: /documentation/foo
+  Development HowTo's: /documentation/developers/howto/Developer_HowTo
+  Development workflow: /documentation/developers/Development_Work_Flow
   Disclaimer: /documentation/foo
   Getting modglusterfs_to_work: /documentation/foo
 - Use Cases: 
