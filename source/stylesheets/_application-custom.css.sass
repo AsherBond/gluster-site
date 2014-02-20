@@ -28,15 +28,18 @@ a.navbar-brand
   h1
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4)
 
+h4, h5, h6
+  font-weight: 600
+
 hr
   border: 0
   height: 1px
   background: rgba(0, 0, 0, 0.2)
 
 #footer
-  margin-top: 42px
-  padding-top: 24px
-  margin-bottom: 24px
+  margin-top: 0
+  padding: 64px
+  margin-bottom: 0
 
 pre, tt, code
   color: $gray-darker
@@ -47,3 +50,25 @@ pre, tt, code
 .last-modified
   font-size: 80%
   color: rgba(black, 0.4)
+
+.details
+  padding-bottom: 20px
+
+.spotlight
+  padding-bottom: 10px
+  color:  #555
+  background: rgba(white, 0.6)
+  @import compass
+  +box-shadow(rgba(black, 0.2) 0px 1px 5px)
+  h2, h3, h4
+    color: #555
+  a 
+    // normal, hover, active, visited, focus
+    +link-colors(#17c, #17c, #c0c, #ccc, #cc0)
+
+.spotlight .logo
+  text-transform: uppercase
+  color: black
+  @import compass
+  +text-shadow(rgba(white, 1) 0px 0px 6px, rgba(white, .8) 0px 0px 3px) 
+  @include background-image(radial-gradient(center, ellipse cover, rgba(white,1) 20%, rgba(white, 0) 70%,rgba(black, 0)100%))
