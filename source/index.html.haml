@@ -1,37 +1,47 @@
 ---
 navigation: home
-title: Write once, access anywhere 
+title: Write once, read anywhere 
 no_container: true
 ---
 
 .container
   .jumbotron
     = image_tag "antmascot.png", :class => "pull-right"
-    %h1 Write once, access anywhere
-    %p Welcome to the Gluster Community, the home of GlusterFS and related open source data storage and management projects. GlusterFS is a unified, scale-out filesystem that can serve up data simultaneously over many different protocols (SMB, NFS, GlusterFS, Swift, QEMU, Cinder, iSCSI, and more). It takes advantage of commodity, off-the-shelf hardware and was made for open source platforms, making it cost-efficient and flexible.
-
-    %h3
-      %a{ :href=>"/documentation/quickstart/index.html" } Get started! Read the Quick Start Guide!
+    %h1 Write once, read anywhere
+    %p Welcome to Gluster.org, home of GlusterFS and related distributed data projects. GlusterFS is a unified, poly-protocol, scale-out filesystem serving many PBs of data.
+    %em 
+      %a{ :href=>"/documentation/quickstart/index.html" } &raquo; Quick Start  
+    %em
+      %a{ :href=>"/download/index.html" } &nbsp; &raquo; Download
+    %em
+      %a{ :href=>"/documentation/index.html" } &nbsp; &raquo; Docs 
+    %em
+      %a{ :href=>"https://bugzilla.redhat.com/page.cgi?id=browse.html&tab=&product=GlusterFS&bug_status=all" } &nbsp; &raquo; Bugs 
+    %em
+      %a{ :href=>"/community/governance/index.html" } &nbsp; &raquo; Governance
 
 .details
   .container
     .row
       .col-md-4 
         %h2 
-          %a{ :href=>"/documentation/architecture/index.html#performance_link" } Get It, Run It, Scale It 
-        %p Gluster serves thousands of clients on streaming media, cloud computing and other large installations. 72 brontobytes likely won't be enough for everyone, but it should do for a while. 
+          %a{ :href=>"/blog/index.html" } Planet Gluster  
+        %p 
+          Gluster serves thousands of clients on streaming media, cloud computing and other large installations. Read how they do it and how you can do it, too. 
         %p
-          %a{ :href=>"/documentation/architecture/index.html#performance_link" } &raquo; Performance Hilights
+          %a{ :href=>"/blog/index.html" } &raquo; Planet Gluster Blog 
       .col-md-4
         %h2 
-          %a{ :href=>"/documentation/architecture/index.html#requirements_link" } Standard
-        %p Hook up Windows, Mac and Linux users as well as servers running common applications over any standard IP network. Gluster runs on 64-bit x86 Linux, which supports a wide range of hardware off the shelf. Get started easily and expand as your needs grow.
+          %a{ :href=>"https://forge.gluster.org/" } Our Ecosystem
+        %p 
+          The Gluster community is home to many open source projects that extend or are complementary to GlusterFS. Download software or start a project. 
         %p
-          %a{ :href=>"/documentation/architecture/index.html#requirements_link" } &raquo; System and Hardware Requirements
+          %a{ :href=>"https://forge.gluster.org/" } &raquo; Gluster Forge
       .col-md-4
         %h2 
           %a{ :href=>"/community/index.html" } Our Community 
-        %p Gluster is being developed and used by a community of people and organizations like you. There are also a lot of Gluster users around the world who contribute to the development and discussion. Help us get even better!
+        %p 
+          Gluster is developed and used by a global community. People just like you contribute to the development and discussion. Join us!
         %p
           %a{ :href=>"/community/index.html" } &raquo; Get involved!
 

@@ -18,6 +18,9 @@ activate :syntax
 # Bootstrap navbar
 activate :bootstrap_navbar
 
+# Navigation foo
+activate :navigation
+
 # Make URLs relative
 set :relative_links, true
 

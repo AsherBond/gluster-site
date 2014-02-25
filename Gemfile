@@ -9,7 +9,7 @@ end
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.1.5"
+gem "middleman", "~> 3.2.2"
 
 # Live-reloading plugin
 gem "middleman-livereload"
@@ -22,14 +22,15 @@ end
 # For faster file watcher updates for people using Windows
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
+gem "tzinfo"
 
 #####
 # General plugins
 
 # Blog plugin
 gem "middleman-blog"
-#gem "middleman-blog-drafts"
-#gem "middleman-blog-authors"
+gem "middleman-blog-drafts"
+gem "middleman-blog-authors"
 
 gem 'middleman-deploy'
 
@@ -46,7 +47,7 @@ gem "nokogiri"
 gem "middleman-syntax"
 
 # For feed.xml.builder
-gem "builder", "~> 3.0"
+gem "builder" #, "~> 3.0"
 
 # Better JSON lib
 gem "oj"
@@ -56,14 +57,16 @@ gem "oj"
 # Bootstrap
 
 # Bootstrap, as SASS 3 version (from master branch, until official release):
-gem "bootstrap-sass", github: "thomas-mcdonald/bootstrap-sass"
+gem "bootstrap-sass" # github: "thomas-mcdonald/bootstrap-sass"
 
 # Bootstrap 3 version of navbar (from a fork; temporary also):
-gem "bootstrap-navbar", github: "delynn/bootstrap-navbar"
+gem "bootstrap-navbar" #github: "delynn/bootstrap-navbar"
 
 # Bootstrap-navbar integration for Middleman
 gem "middleman-bootstrap-navbar"
 
+# navigation foo
+gem "middleman-navigation"
 
 #####
 # Formats
@@ -80,3 +83,4 @@ gem "wikicloth"
 
 # Markdown, with GitHub flavoring
 gem "redcarpet"
+

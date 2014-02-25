@@ -1,25 +1,18 @@
-GIT
-  remote: git://github.com/delynn/bootstrap-navbar.git
-  revision: fadb3742224a3a3ddc5199fd5f6fe6a8f61d2055
-  specs:
-    bootstrap-navbar (0.0.13)
-
-GIT
-  remote: git://github.com/thomas-mcdonald/bootstrap-sass.git
-  revision: ab2f7dd92491bd490e545c18d32e966567b84a3b
-  specs:
-    bootstrap-sass (3.0.0.0)
-      sass (~> 3.2)
-
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (3.2.14)
+    activesupport (3.2.16)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    addressable (2.3.5)
     asciidoctor (0.1.4)
+    atomic (1.1.14)
+    bootstrap-navbar (1.0.2)
+      gem_config (~> 0.2.4)
+    bootstrap-sass (3.0.3.0)
+      sass (~> 3.2)
     builder (3.2.2)
-    chunky_png (1.2.8)
+    chunky_png (1.2.9)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -38,48 +31,53 @@ GEM
     expression_parser (0.9.0)
     favicon_maker (0.2.3)
       mini_magick (~> 3.5)
-    ffi (1.9.0)
+    ffi (1.9.3)
     fssm (0.2.10)
-    haml (4.0.3)
+    gem_config (0.2.4)
+    haml (4.0.5)
       tilt
     hike (1.2.3)
     http_parser.rb (0.5.3)
-    i18n (0.6.5)
-    kramdown (1.1.0)
+    i18n (0.6.9)
+    kramdown (1.3.1)
     less (2.4.0)
       commonjs (~> 0.2.7)
     libv8 (3.16.14.3)
-    listen (1.2.3)
+    listen (1.3.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
-    middleman (3.1.5)
+    middleman (3.2.2)
       coffee-script (~> 2.2.0)
       compass (>= 0.12.2)
       execjs (~> 1.4.0)
       haml (>= 3.1.6)
-      kramdown (~> 1.1.0)
-      middleman-core (= 3.1.5)
-      middleman-more (= 3.1.5)
+      kramdown (~> 1.2)
+      middleman-core (= 3.2.2)
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.1.20)
       uglifier (~> 2.1.0)
-    middleman-blog (3.3.0)
-      middleman-core (~> 3.0)
-      middleman-more (~> 3.0)
-      tzinfo (~> 0.3.0)
-    middleman-bootstrap-navbar (0.0.7)
-      bootstrap-navbar (~> 0.0.13)
+    middleman-blog (3.5.1)
+      addressable (~> 2.3.5)
+      middleman-core (~> 3.2)
+      tzinfo (>= 0.3.0)
+    middleman-blog-authors (0.0.1)
+      middleman-core (>= 3.1.3)
+    middleman-blog-drafts (0.1.0)
+      middleman-blog
+      middleman-core (>= 3.1.4)
+    middleman-bootstrap-navbar (1.0.2)
+      bootstrap-navbar (~> 1.0.2)
       middleman-core (>= 3.0)
-    middleman-core (3.1.5)
+    middleman-core (3.2.2)
       activesupport (~> 3.2.6)
       bundler (~> 1.1)
       i18n (~> 0.6.1)
-      listen (~> 1.2.2)
+      listen (~> 1.1)
       rack (>= 1.4.5)
       rack-test (~> 0.6.1)
       thor (>= 0.15.2, < 2.0)
-      tilt (~> 1.3.6)
+      tilt (~> 1.4.1)
     middleman-deploy (0.1.3)
       middleman-core (>= 3.0.0)
       net-sftp
@@ -87,25 +85,26 @@ GEM
     middleman-favicon-maker (3.3)
       favicon_maker (~> 0.2.3)
       middleman-core (>= 3.0.0)
-    middleman-livereload (3.1.0)
+    middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
       rack-livereload
-    middleman-more (3.1.5)
-    middleman-sprockets (3.1.4)
-      middleman-core (>= 3.0.14)
-      middleman-more (>= 3.0.14)
+    middleman-navigation (1.0.4)
+      middleman-core (>= 3.2.1)
+      simple-navigation (> 3.0.0)
+    middleman-sprockets (3.2.0)
+      middleman-core (~> 3.2)
       sprockets (~> 2.1)
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
-    middleman-syntax (1.2.1)
-      middleman-core (~> 3.0)
-      rouge (~> 0.3.0)
+    middleman-syntax (2.0.0)
+      middleman-core (~> 3.2)
+      rouge (~> 1.0)
     mini_magick (3.6.0)
       subexec (~> 0.2.1)
     mini_portile (0.5.1)
-    multi_json (1.8.0)
+    multi_json (1.8.4)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.7.0)
@@ -118,25 +117,26 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rb-fsevent (0.9.3)
-    rb-inotify (0.9.2)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.3)
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (3.0.0)
     ref (1.0.5)
-    rouge (0.3.10)
-      thor
+    rouge (1.3.2)
     ruby18_source_location (0.2)
-    sass (3.2.10)
-    sprockets (2.10.0)
+    sass (3.2.13)
+    simple-navigation (3.11.0)
+      activesupport (>= 2.3.2)
+    sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     sprockets-helpers (1.0.1)
       sprockets (~> 2.0)
-    sprockets-sass (1.0.1)
+    sprockets-sass (1.0.2)
       sprockets (~> 2.0)
       tilt (~> 1.1)
     subexec (0.2.3)
@@ -144,8 +144,11 @@ GEM
       libv8 (~> 3.16.14.0)
       ref
     thor (0.18.1)
-    tilt (1.3.7)
-    tzinfo (0.3.37)
+    thread_safe (0.1.3)
+      atomic
+    tilt (1.4.1)
+    tzinfo (1.1.0)
+      thread_safe (~> 0.1)
     uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
@@ -158,21 +161,25 @@ PLATFORMS
 
 DEPENDENCIES
   asciidoctor
-  bootstrap-navbar!
-  bootstrap-sass!
-  builder (~> 3.0)
+  bootstrap-navbar
+  bootstrap-sass
+  builder
   less
-  middleman (~> 3.1.5)
+  middleman (~> 3.2.2)
   middleman-blog
+  middleman-blog-authors
+  middleman-blog-drafts
   middleman-bootstrap-navbar
   middleman-deploy
   middleman-favicon-maker
   middleman-livereload
+  middleman-navigation
   middleman-syntax
   nokogiri
   oj
   redcarpet
   ruby18_source_location
   therubyracer
+  tzinfo
   wdm (~> 0.1.0)
   wikicloth
