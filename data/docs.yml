@@ -1,48 +1,66 @@
 - Getting Started:
-  QuickStart - get up and running quickly!: /documentation/quickstart/
-  Getting Started, more in depth: /documentation/getting_started/
+  RPM/Source Download: http://download.gluster.org/pub/gluster/glusterfs/
+  Ubuntu PPA: https://launchpad.net/~semiosis
+  QuickStart Guide: /documentation/quickstart/
+  Getting Started, in depth: /documentation/Getting_started_overview/
+  Compiling RPM's: /documentation/developers/CompilingRPMS
   GlusterFS Concepts & Architecture: /documentation/architecture/
   Glossary: /documentation/Glossary/
   Technical FAQ: /documentation/Technical_FAQ/
+  Basic Troubleshooting: /documentation/howto/Basic_Gluster_Troubleshooting
+  Administrator Guide: https://github.com/gluster/glusterfs/tree/master/doc/admin-guide/en-US/markdown
+  Documenting the undocumented: /documentation/Documenting_the_undocumented
 - Architecture:
   Features Overview: /documentation/architecture/Features_Overview
-# *placeholder for tracking by release, currently only 3.4 info exists, we may want to remove this* Feature By Release: /documentation/foo
-#  Newbie Guide: /documentation/foo
-  Translators: /documentation/architecture/Translators
+  Translators Overview: /documentation/architecture/Translators
+  Translator Options: /documentation/developers/translators/Translators_options
+  Gluster Internals: /documentation/architecture/internals/Dougw:A_Newbie's_Guide_to_Gluster_Internals
+  RPC Internals: /documentation/architecture/internals/Dougw:Understanding_RPC_Internals
+  Understanding Swift Integration: /documentation/architecture/internals/Dougw:Understanding_Swift_Integration
+  Understanding Various Translators: /documentation/architecture/internals/Dougw:Understanding_Various_Translators
+  Geo Replication: /documentation/architecture/internals/GeoRep_Prior_Work
 - Community:
   Licensing: /documentation/community/GNU_Affero_General_Public_License
   Community Governance: /documentation/community/Gluster_Community_Governance_Overview
   Life Cycle: /documentation/community/Life_Cycle
-  GlusterFest: /documentation/GlusterFest
-  Meetups: /documentation/foo
-  Meetings/Minutes: /documentation/community/meetings/Meetings_index
+  GlusterFest: /documentation/community/GlusterFest
+  Meetings/Minutes: http://meetbot.fedoraproject.org/meetbot/gluster-meeting/
   Planning: /documentation/community/planning/planning_index
   Presentations: /documentation/community/Presentations
   Google SOC: /documentation/community/Google_Summer_of_Code_2010_Ideas
   Swag: /documentation/community/Swag
 - Developers:
-  Building Gluster: /documentation/foo
-  Contributors FAQ: /documentation/foo
-  Gluster Testing: /documentation/foo
-  Best Practices: /documentation/foo
+  Contributors FAQ: /documentation/developers/Contributors_FAQ
+  Building GlusterFS: /documentation/developers/Building_GlusterFS
+  Building QEMU with gfapi for Debian based systems: /documentation/developers/Building_QEMU
+  Gluster Testing: /documentation/developers/Testing_Gluster
   Development HowTo's: /documentation/developers/howto/Developer_HowTo
   Development workflow: /documentation/developers/Development_Work_Flow
-  Disclaimer: /documentation/foo
-  Getting modglusterfs_to_work: /documentation/foo
+  Simplified Development Workflow: /documentation/developers/Simplified_dev_workflow
+  Gluster Test Framework: /documentation/developers/Using_the_Gluster_Test_Framework
+  Fixing issues reported by tools for static code analysis: /developers/Fixing_Issues_Reported_By_Tools_For_Static_Code_Analysis
+  Backport Wishlist: /documentation/developers/Backport_Wishlist
+  Bug Reporting Guidelines: /documentation/developers/Bug_reporting_guidelines
+  Bug Report Lifecycles: /documentation/developers/Bug_report_life_cycle
+  Bug Report Template: /documentation/developers/Bug_report_template
+  Bug Triage: /documentation/developers/Bug_triage
 - Use Cases: 
-  HPC: /documentation/foo
-  ZFS: /documentation/foo
-  Cinder: /documentation/foo
-  Keystone Quickstart: /documentation/foo
+  Virt-Store: /documentation/use_cases/Virt-store-usecase
+  HPC User Guide: /documentation/use_cases/GlusterHPC_User_Guide
+  HPC FAQ: /documentation/use_cases/GlusterHPC_FAQ
+  HPC Applications: /documentation/use_cases/GlusterHPC_Applications
+  ZFS: /documentation/use_cases/GlusterOnZFS
+  Cinder: /documentation/use_cases/GlusterFS_Cinder
+  Keystone Quickstart: /documentation/use_cases/GlusterFS_Keystone_Quickstart
+  OpenStack OSConnect: /documentation/use_cases/OSConnect
+  Hadoop: /documentation/use_cases/Hadoop
+  Getting modglusterfs_to_work: /documentation/use_cases/Getting_modglusterfs_to_work
+  Modglusterfs on lighttpd: /documentation/use_cases/Mod_glusterfs_for_lighttpd
+  Running Apache with Gluster: /documentation/use_cases/Running_Apache_with_Glusterfs
 - Further Reading:
   Document Writing instructions: /documentation/doc-writing-howto/
+  Sumitting Documentation Patches: /documentation/Submitting_Documentation_Patches
 #- This is a Header:
 #  This is an article: /this/is/the/url
 #  This is another article: /this/is/the/url
 #  This is yet another article: /this/is/the/url
-- Archives:
-  Gluster 3.2: /documentation/foo
-  3.3 Beta Tests: /documentation/3.3/3.3.0_Beta_4_Tests/
-  3.3 Beta Info: /documentation/3.3/3.3beta/
-  About 3.3: /documentation/3.3/About33
-  GSP: /documentation/foo
