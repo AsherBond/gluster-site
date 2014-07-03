@@ -75,7 +75,9 @@ gem "bootstrap-navbar" #github: "delynn/bootstrap-navbar"
 gem "middleman-bootstrap-navbar"
 
 # navigation foo
-gem "middleman-navigation"
+# there isn't a release that fixes issue #8, so we're using master
+# https://github.com/michaek/middleman-navigation/issues/8
+gem "middleman-navigation", github: "michaek/middleman-navigation", ref: "cbffe52"
 
 # There's a bug in with bootstrap-sass + sprockets-sass in 3.3.3
 # FIXME: When a fix is released (3.3.4?), remove this block

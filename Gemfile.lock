@@ -1,7 +1,16 @@
+GIT
+  remote: git://github.com/michaek/middleman-navigation.git
+  revision: cbffe52bb3dd1334368c0c8ababb58c56d2b7a21
+  ref: cbffe52
+  specs:
+    middleman-navigation (1.0.4)
+      middleman-core (~> 3.2)
+      simple-navigation (~> 3.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (4.1.1)
+    activesupport (4.1.4)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -50,7 +59,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     eventmachine (1.0.3)
-    execjs (2.2.0)
+    execjs (2.2.1)
     expression_parser (0.9.0)
     favicon_maker (1.3)
       docile (~> 1.1)
@@ -74,7 +83,7 @@ GEM
     less (2.6.0)
       commonjs (~> 0.2.7)
     libv8 (3.16.14.3)
-    listen (1.1.6)
+    listen (1.3.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
@@ -127,9 +136,6 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (~> 3.2)
       rack-livereload (~> 0.3.15)
-    middleman-navigation (1.0.2)
-      middleman (> 3.0.0)
-      simple-navigation (> 3.0.0)
     middleman-pry (0.0.3)
       middleman-core (>= 3.2.2)
       pry (>= 0.9.12)
@@ -207,7 +213,7 @@ GEM
     tilt (1.4.1)
     tzinfo (1.2.1)
       thread_safe (~> 0.1)
-    uber (0.0.6)
+    uber (0.0.7)
     uglifier (2.5.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -238,7 +244,7 @@ DEPENDENCIES
   middleman-deploy
   middleman-favicon-maker
   middleman-livereload
-  middleman-navigation
+  middleman-navigation!
   middleman-pry
   middleman-sprockets (= 3.3.2)
   middleman-syntax
