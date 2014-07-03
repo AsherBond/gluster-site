@@ -1,4 +1,12 @@
-#footer.text-center
+%footer#footer.text-center
+
+  %hr.visible-print
+
+  - if data.site.footer_links
+    %ul.footer-nav-list
+      - data.site.footer_links.each do |name, url|
+        %li= link_to name.strip, url.strip, target: "_blank"
+
   =# data.site.founding_year
   - founding = data.site.founding_year
   - year_string = if founding && founding.to_i < Time.now.year
@@ -13,4 +21,4 @@
 
     - if modified_time
       Page last modified
-      = Time.parse(modified_time).utc.strftime('%a %-d %b %Y')
+      = Time.parse(modified_time).utc.strftime('%a %-d %b %Y %H:%M %Z')

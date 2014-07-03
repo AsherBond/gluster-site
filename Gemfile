@@ -9,10 +9,20 @@ end
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~> 3.2.2"
+gem "middleman", "~> 3.3.3"
+
+# In order to get SASS 3.3, compass 1.0 is needed
+# FIXME: Remove this once 1.0 is final (very, very soon now -- next week?)
+gem 'compass', '~> 1.0.0.alpha.19'
 
 # Live-reloading plugin
 gem "middleman-livereload"
+
+# Debugger / REPL alternative to irb
+gem 'pry'
+gem 'pry-debugger'
+gem 'pry-stack_explorer'
+gem 'middleman-pry'
 
 # Cross-templating language block fix for Ruby 1.8
 platforms :mri_18 do
@@ -56,17 +66,21 @@ gem "oj"
 #####
 # Bootstrap
 
-# Bootstrap, as SASS 3 version (from master branch, until official release):
-gem "bootstrap-sass" # github: "thomas-mcdonald/bootstrap-sass"
+# Bootstrap, as SASS
+gem "bootstrap-sass"
 
 # Bootstrap 3 version of navbar (from a fork; temporary also):
 gem "bootstrap-navbar" #github: "delynn/bootstrap-navbar"
-
 # Bootstrap-navbar integration for Middleman
 gem "middleman-bootstrap-navbar"
 
 # navigation foo
 gem "middleman-navigation"
+
+# There's a bug in with bootstrap-sass + sprockets-sass in 3.3.3
+# FIXME: When a fix is released (3.3.4?), remove this block
+# See: https://github.com/middleman/middleman/issues/1265
+gem 'middleman-sprockets', '3.3.2'
 
 #####
 # Formats
@@ -81,6 +95,15 @@ gem "asciidoctor"
 # mediawiki
 gem "wikicloth"
 
-# Markdown, with GitHub flavoring
-gem "redcarpet"
+gem "coderay"
+gem "stringex"
 
+# Markdown
+gem "kramdown"
+
+gem 'open-uri-cached'
+
+gem 'font-awesome-middleman'
+
+# RSS/Atom parsing
+gem "feedjira"

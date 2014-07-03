@@ -1,12 +1,45 @@
-.masthead
-  -# %h1
-    = link_to "/" do
-      = image_tag data.site.logo, class: "logo", alt: data.site.name
+:ruby
+  logo = data.site.logo
 
-  -# A few options/examples below:
+  def graphic_exists file
+    sitemap.find_resource_by_path("images/#{file}")
+  end
+
+  def make_logo trySVG = false, file = data.site.logo
+    if graphic_exists file
+      isSVG = file[/.svg$/] ? 'is-svg' : 'not-svg'
+      image_tag file, id: "logo", class: "logo #{trySVG ? isSVG : ''}", alt: data.site.name
+    end
+  end
+
+
+%header#branding.masthead.hidden-print(role="banner")
+  %section.hgroup
+    %h1
+      ~ link_to "/" do
+
+        - if logo
+
+          - if logo.match /.svg$/ and graphic_exists logo
+
+            - fallback = logo.gsub /.svg$/, '.png'
+            ~ make_logo 'svg'
+            ~ make_logo 'svg', fallback
+
+          - elsif
+
+            ~ make_logo
+
+        - else
+
+          ~ data.site.name
+
+    - if data.site.subhead
+      %h2#site-title
+        = data.site.subhead
+
+  -#access
+    = partial :nav, locals: { source: "navigation", nav_class: "nav-pills" }
 
   -# Use static top navbar include (default on springboard example site)
   = partial "navbar_static_top"
-
-  -# "Dynamic" navigation is automatically rendered from ../../data/navigation.yml
-  -# = partial :nav, locals: { source: "navigation", nav_class: "nav-pills" }
