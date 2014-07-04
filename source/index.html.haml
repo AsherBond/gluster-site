@@ -1,59 +1,48 @@
 ---
 navigation: home
-title: Write once, read anywhere 
+title: Write once, read anywhere
 no_container: true
 ---
 
-.container
+%section.intro.container
   .jumbotron
-    = image_tag "antmascot.png", :class => "pull-right"
+    =image_tag "antmascot.png", class: "pull-right"
+
     %h1 Write once, read anywhere
     %p Welcome to Gluster.org, home of GlusterFS and related distributed data projects. GlusterFS is a unified, poly-protocol, scale-out filesystem serving many PBs of data.
-    %em 
-      %a{ :href=>"/documentation/quickstart/index.html" } &raquo; Quick Start  
-    %em
-      %a{ :href=>"/download/index.html" } &nbsp; &raquo; Download
-    %em
-      %a{ :href=>"/documentation/index.html" } &nbsp; &raquo; Docs 
-    %em
-      %a{ :href=>"https://bugzilla.redhat.com/page.cgi?id=browse.html&tab=&product=GlusterFS&bug_status=all" } &nbsp; &raquo; Bugs 
-    %em
-      %a{ :href=>"/community/governance/index.html" } &nbsp; &raquo; Governance
 
-.details
-  .container
-    .row
-      .col-md-4 
-        %h2 
-          %a{ :href=>"/blog/index.html" } Planet Gluster  
-        %p 
-          Gluster serves thousands of clients on streaming media, cloud computing and other large installations. Read how they do it and how you can do it, too. 
-        %p
-          %a{ :href=>"/blog/index.html" } &raquo; Planet Gluster Blog 
-      .col-md-4
-        %h2 
-          %a{ :href=>"https://forge.gluster.org/" } Our Ecosystem
-        %p 
-          The Gluster community is home to many open source projects that extend or are complementary to GlusterFS. Download software or start a project. 
-        %p
-          %a{ :href=>"https://forge.gluster.org/" } &raquo; Gluster Forge
-      .col-md-4
-        %h2 
-          %a{ :href=>"/community/index.html" } Our Community 
-        %p 
-          Gluster is developed and used by a global community. People just like you contribute to the development and discussion. Join us!
-        %p
-          %a{ :href=>"/community/index.html" } &raquo; Get involved!
+    %em=link_to "&raquo; Quick Start", "/documentation/quickstart/index.html"
+    %em=link_to "&raquo; Download", "/download/index.html"
+    %em=link_to "&raquo; Docs", "/documentation/index.html"
+    %em=link_to "&raquo; Bugs", "https://bugzilla.redhat.com/page.cgi?id=browse.html&tab=&product=GlusterFS&bug_status=all"
+    %em=link_to "&raquo; Governance", "/community/governance/index.html"
+
+
+%section.details.container
+  .row
+    .col-md-4
+      %h2=link_to "Planet Gluster", "/blog/index.html"
+      %p Gluster serves thousands of clients on streaming media, cloud computing and other large installations. Read how they do it and how you can do it, too.
+      %p=link_to " &raquo; Planet Gluster Blog", "/blog/index.html"
+
+    .col-md-4
+      %h2
+        =link_to "Our Ecosystem", "https://forge.gluster.org/"
+      %p The Gluster community is home to many open source projects that extend or are complementary to GlusterFS. Download software or start a project.
+      %p=link_to " &raquo; Gluster Forge", "https://forge.gluster.org/"
+
+    .col-md-4
+      %h2=link_to "Our Community", "/community/index.html"
+      %p Gluster is developed and used by a global community. People just like you contribute to the development and discussion. Join us!
+      %p=link_to " &raquo; Get involved!", "/community/index.html"
+
 
 =# this is the spotlight section! Edit _spotlight1.haml and _spotlight2.haml to change the content
-.spotlight
-  .container
-    .row
-      .col-md-4
-        %h2.logo Spotlight
-        %p GlusterFS is being used all over the world. We've collected some exciting testimonials from satisfied users and thrown in some other interesting facts and news in the mix: enter the Gluster Spotlight!
-      .col-md-4
-        =partial "spotlight/spotlight1"
-      .col-md-4
-        =partial "spotlight/spotlight2"
+%section.spotlight.container
+  .row
+    .col-md-4
+      %h2.logo Spotlight
+      %p GlusterFS is being used all over the world. We've collected some exciting testimonials from satisfied users and thrown in some other interesting facts and news in the mix: enter the Gluster Spotlight!
 
+    .col-md-4=partial "spotlight/spotlight1"
+    .col-md-4=partial "spotlight/spotlight2"
