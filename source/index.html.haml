@@ -57,3 +57,20 @@ no_container: true
       .col-md-4
         =partial "spotlight/spotlight2"
 
+    .col-md-4=partial "spotlight/spotlight1"
+    .col-md-4=partial "spotlight/spotlight2"
+
+
+%section.recent-feeds.container
+  .row
+    %section.recent-blog.col-sm-4
+      %h2 From the blog
+      = simple_feed_list "http://www.gluster.org/blog/feed/", 6, "author"
+
+    %section.recent-forge.col-sm-4
+      %h2 Forge activity
+      = simple_feed_list "https://forge.gluster.org/projects.atom", 6
+
+    %section.recent-bugs.col-sm-4
+      %h2 Recent bugs
+      = simple_feed_list "https://bugzilla.redhat.com/buglist.cgi?product=GlusterFS&query_format=advanced&title=Bug%20List&ctype=atom", 4

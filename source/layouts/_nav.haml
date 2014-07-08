@@ -43,7 +43,7 @@
   def nav_header text
     capture_haml do
       haml_tag "li.disabled" do
-        haml_tag :h3, text
+        haml_tag :h4, text
       end
     end
   end
@@ -62,41 +62,42 @@
     text = link.split('/').last.humanize if (text.empty? || text == "-")
 
     capture_haml do
-      haml_tag "li" + active_class do
+      haml_tag "li" + active_class, role: "menuitem" do
         haml_tag :a, text, { href: link || '#' }
-        block.call if defined? block
+        #block.call if defined? block
       end
     end
   end
 
 
-- if data.has_key? source
+- if data.has_key?(source) && data[source]
 
-  %ul.nav(role="navigation" class="#{nav_class}")
+  %nav(role="navigation")
+    %ul.nav(class="#{nav_class}")
 
-    - data[source].each do |item|
+      - data[source].each do |item|
 
-      - if item.is_a?(String)
+        - if item.is_a?(String)
 
-        = nav_header item
+          = nav_header item
 
-      - else
+        - else
 
-        - item.each do |text, link|
+          - item.each do |text, link|
 
-          - if item.count == 1
+            - if item.count == 1
 
-            - if link
-              = nav_link text, link
+              - if link
+                = nav_link text, link
+
+              - else
+                = nav_header text
 
             - else
-              = nav_header text
 
-          - else
+              = nav_link text, link do
 
-            = nav_link text, link do
-
-              %ul.nav(role="menu")
-                - item.each do |text, link|
-                  - unless text == text
-                    = nav_link text, link
+                %ul.nav(role="menu")
+                  - item.each do |text, link|
+                    - unless text == text
+                      = nav_link text, link

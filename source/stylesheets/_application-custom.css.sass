@@ -1,10 +1,12 @@
 // Here you can put your own custom CSS styling.
 // Font web font definitions and imports should go in _fonts.css.
-// 
+//
 // You should use SASS syntax (http://sass-lang.com/).
 // You can also use Compass mixins (http://compass-style.org/).
 
 // Gluster specific styling..
+
+@import compass
 
 // This is the gluster logo
 a.navbar-brand
@@ -58,17 +60,34 @@ pre, tt, code
   padding-bottom: 10px
   color:  #555
   background: rgba(white, 0.6)
-  @import compass
   +box-shadow(rgba(black, 0.2) 0px 1px 5px)
   h2, h3, h4
     color: #555
-  a 
+  a
     // normal, hover, active, visited, focus
     +link-colors(#17c, #17c, #c0c, #ccc, #cc0)
 
 .spotlight .logo
   text-transform: uppercase
   color: black
-  @import compass
-  +text-shadow(rgba(white, 1) 0px 0px 6px, rgba(white, .8) 0px 0px 3px) 
+  text-shadow: rgba(white, 1) 0px 0px 6px, rgba(white, .8) 0px 0px 3px
   @include background-image(radial-gradient(center, ellipse cover, rgba(white,1) 20%, rgba(white, 0) 70%,rgba(black, 0)100%))
+
+
+.feed-list,
+.feed-entry
+  list-style: none
+  margin: 0
+  padding: 0
+
+.feed-list
+  @at-root .feed-entry
+    a
+      display: block
+
+    + .feed-entry
+      padding-top: 1rem
+
+
+  .feed-meta
+    opacity: 0.5
