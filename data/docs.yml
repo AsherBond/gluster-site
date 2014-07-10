@@ -9,6 +9,7 @@
   Glossary: /documentation/Glossary/
   Technical FAQ: /documentation/Technical_FAQ/
   Basic Troubleshooting: /documentation/howto/Basic_Gluster_Troubleshooting
+  HowTo: /documentation/howto/HowTo
   Administrator Guide: https://github.com/gluster/glusterfs/tree/master/doc/admin-guide/en-US/markdown
   Documenting the undocumented: /documentation/Documenting_the_undocumented
 - Architecture:
