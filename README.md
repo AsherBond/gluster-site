@@ -1,5 +1,8 @@
 This is built using middleman (http://middlemanapp.com/)
 
+Pre-flight:
+ruby, ruby-devel, libcurl-devel, gcc and gcc-c++ should be installed and up to date to use bundle install
+
 1. cd gluster-site; bundle install 
    (installs stuff defined in Gemfile)
 
